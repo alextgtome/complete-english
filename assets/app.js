@@ -47,11 +47,11 @@ const speakingPanelHtml=
  '<div class="panel"><h3>'+(isInterview?'Interview':'Scenario')+' · 15 min</h3><p><b>Opening prompt:</b> '+esc(d.scenario)+'</p><p class="small">Explain your actual thinking, then retry if needed.</p></div></div>'+
  '<div class="grid2 practice-routes">'+
  '<div class="panel voice-route">'+
- '<div class="route-heading"><span class="route-symbol" aria-hidden="true">🎙</span><div><h3>Option A · ChatGPT Voice</h3><p class="small">A conversation partner that knows today’s topic and target chunks.</p></div></div>'+
- '<ol class="voice-steps"><li>Copy today’s complete coaching prompt.</li><li>Paste it into a ChatGPT text conversation, then start Voice in that same conversation.</li><li>Answer one question at a time. Say “retry” whenever you want to try again.</li></ol>'+
+ '<div class="route-heading"><span class="route-symbol" aria-hidden="true">🎙</span><div><h3>Option A · AI Voice partner</h3><p class="small">A conversation partner that knows today’s topic and target chunks.</p></div></div>'+
+ '<ol class="voice-steps"><li>Copy today’s complete coaching prompt.</li><li>Paste it into any AI assistant that supports voice (such as ChatGPT, Gemini or Claude, where available). Then start its voice mode in the same conversation.</li><li>Answer one question at a time. Say “retry” whenever you want to try again.</li></ol>'+
  '<div class="voice-actions"><button class="btn primary" id="copyVoice" type="button">Copy coaching prompt</button><span id="copyStatus" role="status" aria-live="polite" class="small"></span></div>'+
  '<details class="detail voice-preview"><summary>Preview or manually copy the prompt</summary><div class="voice-preview-body"><label for="voice-command" class="small">Complete Day '+num+' coaching instructions</label><textarea id="voice-command" readonly rows="12" spellcheck="false">'+esc(coachingPrompt)+'</textarea></div></details>'+
- '<p class="small voice-note">This website cannot start Voice or listen to your answers. Use ChatGPT to practise.</p>'+
+ '<p class="small voice-note">This website does not start AI voice mode or listen to your answers. Voice support varies by assistant and device.</p>'+
  '</div>'+
  '<div class="panel solo-route">'+
  '<div class="route-heading"><span class="route-symbol" aria-hidden="true">🎧</span><div><h3>Option B · Solo recorder</h3><p class="small">No AI needed. Use your phone’s voice recorder.</p></div></div>'+
@@ -83,7 +83,7 @@ document.getElementById('copyVoice').addEventListener('click',async ()=>{
   try{
     if(!navigator.clipboard || !navigator.clipboard.writeText)throw new Error('Clipboard unavailable');
     await navigator.clipboard.writeText(input.value);
-    status.textContent='Copied. Paste into ChatGPT before starting Voice.';
+    status.textContent='Copied. Paste into your chosen AI assistant, then start its voice mode.';
   }catch(err){
     document.querySelector('.voice-preview').open=true;
     input.focus();input.select();
