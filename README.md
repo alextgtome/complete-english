@@ -1,10 +1,12 @@
 # Complete English — 150-day Fluency Lab
 
-## Who is this for?
+## About this project
 
-People who can understand a lot of English — sometimes even technical talks or books — but find it hard to retrieve natural phrases while speaking. That gap is not necessarily caused by anxiety or mental translation. Our focus is practical: **recognise → retrieve → substitute → speak → recover without restarting**.
+Complete English is a free collection of interactive exercises for practising everyday and professional English. The focus is on **using language actively**: recognising useful sentence patterns, substituting parts of a complete sentence, retrieving expressions in context, and communicating an idea clearly.
 
-This is a **free public learning experiment**, not a scientifically validated programme or a promise of fluency. The 150-day course originated as a personal English practice routine and is being adapted for other learners. Some lessons use engineering/IT situations; the new public starter focuses on everyday situations.
+The 150-day learning routine began as a personal software project and is being shared publicly so others can explore or adapt the exercises to their own goals. Some lessons include software engineering scenarios, while the [public starter exercise](start.html) uses everyday situations.
+
+**A note about the material:** I'm a software engineer, not an English teacher. I'm sharing techniques and exercises I'm experimenting with in my own routine, not offering a certified course, a scientifically validated method, or a guarantee of fluency.
 
 ### Try it in 12 minutes
 
