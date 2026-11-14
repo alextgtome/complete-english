@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#17343e"><meta name="description" content="Free guided English practice for people who understand English but struggle to retrieve words and sentence patterns."><title>Start Here | Complete English</title><link rel="stylesheet" href="assets/site.css">
+<style>
+.hero{max-width:820px}.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.16;margin:10px 0;color:#17343e}.hero p{font-size:17px;color:#587174}
+.sprint,.twocol{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0}.twocol{grid-template-columns:1fr 1fr}.mini{padding:17px;border:1px solid #dbe5e4;border-radius:12px;background:white}.mini strong{color:#17343e}.mini p{margin-bottom:0}.gloss{font-size:13px;color:#0d817d}.demo-row{padding:10px 0;border-top:1px solid #dbe5e4;display:flex;align-items:center;justify-content:space-between;gap:10px}.model{display:none;padding:10px;margin:0 0 10px;color:#14645b;background:#eaf5f1;border-radius:9px}.model.show{display:block}.demo-copy{background:#eef6f3;border-radius:9px;padding:13px 16px;font-weight:600}.steptext{color:#697e81}.explain{background:#eff6f4;border-radius:10px;padding:14px}details{margin:16px 0;border:1px solid #dbe5e4;border-radius:10px;padding:12px}summary{cursor:pointer;font-weight:bold;color:#0d817d}#finished{accent-color:#0d817d}
+@media(max-width:710px){.sprint,.twocol{grid-template-columns:1fr}.hero p{font-size:15px}}
+</style></head><body>
+<header class="site"><nav class="top"><strong><a href="index.html">COMPLETE <span>ENGLISH</span></a></strong><div class="links"><a href="index.html">Lesson archive</a><a href="https://github.com/alextgtome/complete-english">GitHub</a></div></nav></header>
+<main>
+<section class="hero"><div class="eyebrow">START HERE · FREE 12-MINUTE PRACTICE</div><h1>You understand English.<br>But speaking takes longer.</h1><p>Maybe you can read books or follow technical conversations, but a useful phrase disappears halfway through a sentence. That doesn't necessarily mean you're translating in your head. You may need more practice retrieving and connecting natural language in real time.</p><p class="steptext">This is a learning experiment, not a test or a fluency guarantee. No account or downloads required. You can practise on your own with a phone recorder.</p><a class="btn primary" href="#demo">Try the exercise</a></section>
+<div class="sprint"><div class="mini"><strong>2 min — Notice</strong><p>Recognise situations and patterns.</p></div><div class="mini"><strong>6 min — Substitute</strong><p>Say full sentences with guided changes.</p></div><div class="mini"><strong>4 min — Recover</strong><p>Continue even when a word disappears.</p></div></div>
+<section class="section" id="demo"><h2>1. Notice three natural chunks <small>2 minutes</small></h2><p>Connect each expression to a situation; read its example out loud.</p>
+<div class="twocol">
+<div class="mini"><h3>I'm thinking about + -ing</h3><p class="gloss">Estou pensando em... · <b>Quando usar:</b> ao considerar uma possibilidade.</p><p>I'm thinking about taking the train.</p></div>
+<div class="mini"><h3>It turns out that...</h3><p class="gloss">Acontece que... · <b>Quando usar:</b> ao relatar uma descoberta inesperada.</p><p>It turns out that the shop closes early.</p></div>
+<div class="mini"><h3>What I mean is...</h3><p class="gloss">O que quero dizer é... · <b>Quando usar:</b> ao explicar melhor uma ideia.</p><p>What I mean is, I'd prefer a simpler option.</p></div>
+</div></section>
+<section class="section"><h2>2. Guided substitution <small>6 minutes</small></h2><p><strong>Cumulative drill:</strong> each change applies to the previous sentence. Read the starting sentence, see one cue, hide it, say the entire sentence, then reveal the answer. No invention required.</p><div id="drills"></div><p class="steptext">After each sequence, repeat all the full sentences from memory at a comfortable pace. The objective is natural retrieval, not speed.</p></section>
+<section class="section"><h2>3. Keep speaking <small>4 minutes</small></h2>
+<div class="panel"><p><b>Scenario:</b> You planned to meet someone on Saturday, but something changed. Explain what happened out loud for 45–60 seconds.</p><p>Now repeat. Deliberately imagine you cannot recall one useful word. Continue with a simpler expression or a short explanation. <b>Do not restart the entire sentence.</b></p>
+<details><summary>Reveal recovery phrases after attempting</summary><p>What I mean is, we needed to choose a different time.</p><p>Let me put it another way: Saturday wasn't possible anymore.</p></details>
+<p><b>Self-check:</b> Was your main point clear? Did you keep speaking rather than restarting?</p><label><input type="checkbox" id="finished"> I tried the exercise.</label><p class="steptext">This checkbox is stored on your device only. No audio is recorded by this website.</p></div></section>
+<section class="section"><h2>Keep learning</h2><p>The 150-day course adds everyday reflexes, numbers, spelling, dates, prepositions, chunk retrieval, guided substitution, realistic speaking and short writing. The historical lessons began as a personal project; you can adapt the exercises to your own context.</p><a class="btn primary" href="lessons/day-001.html">Start with Day 1</a> <a class="btn" href="index.html">Browse available lessons</a><p class="notice">Early-stage project: the historical archive contains adapted lessons and professional scenarios. Written notes and checkmarks are saved in your browser, not synchronised between devices.</p></section>
+<footer>Complete English · <a href="https://github.com/alextgtome/complete-english">View source and suggest improvements</a></footer>
+</main>
+<script>
+(function(){
+var sets=[
+{title:"Everyday: making plans",base:"I'm thinking about taking the bus tomorrow.",steps:[["the bus","the train"],["tomorrow","on Friday"],["I'm","We're"],["the train","a taxi"]]},
+{title:"Work or study: clarifying a decision",base:"I need to check the schedule before Friday.",steps:[["the schedule","the price"],["Friday","Monday"],["I","We"],["check","confirm"]]}
+];
+var area=document.getElementById("drills");
+sets.forEach(function(set){
+var card=document.createElement("div");card.className="panel";
+var heading=document.createElement("h3");heading.textContent=set.title;card.appendChild(heading);
+var base=document.createElement("p");base.className="demo-copy";base.textContent=set.base;card.appendChild(base);
+var sentence=set.base;
+set.steps.forEach(function(change,i){
+if(sentence.indexOf(change[0])<0)return;
+sentence=sentence.replace(change[0],change[1]);
+var row=document.createElement("div");row.className="demo-row";
+var cue=document.createElement("span");cue.textContent=(i+1)+". "+change[0]+" → "+change[1];
+var button=document.createElement("button");button.type="button";button.className="btn";button.textContent="Reveal";
+var answer=document.createElement("p");answer.className="model";answer.textContent=sentence;
+button.addEventListener("click",function(){var showing=answer.classList.toggle("show");button.textContent=showing?"Hide":"Reveal";button.setAttribute("aria-expanded",String(showing))});
+row.appendChild(cue);row.appendChild(button);card.appendChild(row);card.appendChild(answer);
+});
+area.appendChild(card);
+});
+var done=document.getElementById("finished");
+try{done.checked=localStorage.getItem("complete-english-intro-done")==="yes"}catch(e){}
+done.addEventListener("change",function(){try{localStorage.setItem("complete-english-intro-done",done.checked?"yes":"no")}catch(e){}});
+})();
+</script></body></html>
