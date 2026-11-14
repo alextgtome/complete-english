@@ -9,3 +9,23 @@ main{max-width:1150px;margin:auto;padding:38px 22px 80px}.eyebrow{font-size:11px
 @media print{header.site,button,.actions,.timer{display:none!important}body{background:#fff}.panel,.chunk{break-inside:avoid;box-shadow:none}main{padding:0}}
 
 [hidden]{display:none!important}
+
+/* Speaking mode choices — compact on desktop and mobile */
+.practice-routes{align-items:stretch}
+.practice-routes>.panel{margin:0}
+.route-heading{display:flex;align-items:flex-start;gap:12px;margin:0 0 15px}
+.route-heading h3{margin:0 0 5px;color:var(--navy);font-size:17px}
+.route-heading p{margin:0}
+.route-symbol{display:grid;place-items:center;flex:0 0 40px;height:40px;background:var(--soft);border-radius:12px;font-size:21px}
+.voice-steps,.solo-questions{padding-left:22px;margin:14px 0}
+.voice-steps li,.solo-questions li{padding-left:4px;margin:8px 0;font-size:14px;line-height:1.5}
+.voice-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:15px 0}
+.voice-preview{margin:0 0 15px}
+.voice-preview-body{padding:4px 14px 14px}
+.voice-preview textarea{font:12px/1.55 ui-monospace,SFMono-Regular,Consolas,monospace;background:#fbfdfc;color:var(--ink);margin-top:7px;min-height:240px;max-height:420px}
+.voice-note{padding-top:8px;border-top:1px solid var(--line)}
+.mini-recap{margin:18px 0;padding:12px 14px;background:var(--soft);border-radius:10px}
+.mini-recap b{font-size:13px;color:var(--navy)}
+.mini-recap p{margin:5px 0 0}
+.solo-route .timer{border-top:1px solid var(--line);padding-top:14px}
+@media(max-width:760px){.practice-routes{grid-template-columns:1fr}.voice-actions .btn{width:100%;justify-content:center}.voice-steps li,.solo-questions li{font-size:14px}}
