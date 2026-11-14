@@ -7,3 +7,5 @@ main{max-width:1150px;margin:auto;padding:38px 22px 80px}.eyebrow{font-size:11px
 @media(max-width:760px){main{padding:22px 15px 65px}.chunk-grid,.grid2{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.times{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(3,minmax(0,1fr))}.panel{padding:17px}.section h2 small{float:none;display:block;margin-top:3px}}
 @media(max-width:440px){.cards{grid-template-columns:1fr}nav.top .links{gap:12px}.head h1{font-size:31px}}
 @media print{header.site,button,.actions,.timer{display:none!important}body{background:#fff}.panel,.chunk{break-inside:avoid;box-shadow:none}main{padding:0}}
+
+[hidden]{display:none!important}
