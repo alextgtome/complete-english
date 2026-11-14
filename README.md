@@ -1,13 +1,13 @@
-# Complete English — Fluency Lab
+# Complete English — 150-day Fluency Lab
 
-Personal 150-day English study website (started 29 October 2026).
+Static HTML lessons originally started 29 October 2026, with 150 days ending 27 March 2027.
 
-Lessons are indexed at `index.html` and published through GitHub Pages when Pages is enabled.
+Open `index.html` or enable [GitHub Pages](https://docs.github.com/en/pages/quickstart): Settings → Pages → Deploy from branch → `develop` → `/(root)`; alternatively the included Pages workflow deploys from `develop` on push.
 
-The historical lessons were originally delivered as printable PDF worksheets. This site contains HTML adaptations and clearly identifies any historical corrections.
+**Historical archive:** Days 1–16 were reconstructed as HTML study adaptations from the original printable worksheets. Existing lesson content and dates are respected; the modern 90-minute structure replaces early time allocations. The Day 7 and Day 12 NEW-label errors are corrected. Do not treat regenerated substitution drills as copies of the original pages.
 
-**Privacy:** The repository and published website are public; do not put private personal records or audio files here.
+**Daily routine:** 15 min foundations, 35 min chunks, 30 min speaking, 10 min writing.
 
-**Study plan:** 15 min foundations, 35 min chunks, 30 min speaking, 10 min writing.
+**Privacy:** This is a public repository. Do not commit personal notes, audio recordings, credentials, or private data. Browser writing and completion states use localStorage; they do not synchronise across devices.
 
-Progress and written drafts remain in your own browser (`localStorage`); there is no server synchronisation.
+**Daily publishing:** Add a record to `data/lessons.js`, create `lessons/day-NNN.html` referencing existing assets, then commit to `develop`. Do not overwrite previous days.
