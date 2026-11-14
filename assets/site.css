@@ -29,3 +29,6 @@ main{max-width:1150px;margin:auto;padding:38px 22px 80px}.eyebrow{font-size:11px
 .mini-recap p{margin:5px 0 0}
 .solo-route .timer{border-top:1px solid var(--line);padding-top:14px}
 @media(max-width:760px){.practice-routes{grid-template-columns:1fr}.voice-actions .btn{width:100%;justify-content:center}.voice-steps li,.solo-questions li{font-size:14px}}
+
+/* Explicit grammar-dependent substitution note */
+.cue-note{display:block;margin-top:4px;color:var(--teal);font-size:12px;font-weight:600;line-height:1.45}
