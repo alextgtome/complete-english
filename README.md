@@ -11,3 +11,7 @@ Open `index.html` or enable [GitHub Pages](https://docs.github.com/en/pages/quic
 **Privacy:** This is a public repository. Do not commit personal notes, audio recordings, credentials, or private data. Browser writing and completion states use localStorage; they do not synchronise across devices.
 
 **Daily publishing:** Add a record to `data/lessons.js`, create `lessons/day-NNN.html` referencing existing assets, then commit to `develop`. Do not overwrite previous days.
+
+## Pages publishing
+
+This repository includes `.github/workflows/pages.yml`, configured to deploy the static site from the `develop` branch after each push. In GitHub repository Settings → Pages, select **GitHub Actions** as the build/deployment source. Then check **Actions → Publish Complete English site** for the deployment result. The site address is `https://alextgtome.github.io/complete-english/` once GitHub Pages reports a successful deployment.
