@@ -15,7 +15,7 @@ Start with the [interactive speaking demo](start.html) (published as [Start Here
 - two cumulative substitution drills with every cue provided;
 - a recovery exercise for continuing when you cannot remember a word.
 
-Then try the [lesson archive](index.html) and use either ChatGPT Voice or your own phone recorder for speaking. No login or microphone permissions are needed on the site. Your typed practice and checkmarks stay in your own browser, not on a central server.
+Then try the [lesson archive](index.html) and practise speaking with any voice-enabled AI assistant or your own phone recorder. Availability and behaviour differ between providers. No login or microphone permissions are needed on the site. Your typed practice and checkmarks stay in your own browser, not on a central server.
 
 ### Feedback and future contributors
 
