@@ -15,6 +15,8 @@ const num=Number(document.body.dataset.day),d=data.days.find(x=>x.day===num);if(
 const F=data.F[d.micro],rr=Array.from({length:10},(_,i)=>data.reflexPool[((num*3)+i)%data.reflexPool.length]);
 const today=d.chunks.map(id=>data.G[id]),initial=today.filter(x=>x.d===num).length;
 const isInterview=num%7===1||num%7===4, old=num<=10?'Original lesson: 15 / 20 / 45 / 10 minutes.':'Original lesson: 15 / 35 / 30 / 10 minutes.';
+const scenarioKind=d.scenario_type||(isInterview?'interview':'scenario');
+const scenarioLabel=scenarioKind==='workplace'?'Workplace / Engineering':scenarioKind==='everyday'?'Everyday situation':scenarioKind==='interview'?'Interview':'Scenario';
 const a=data.av[(num-1)%data.av.length],b=data.bv[(num-1)%data.bv.length],f=data.focusDrills[num];
 const seqs=num===16?[makeSeq('Everyday conversation',...f),makeSeq('Scheduling and agreement',...data.specialDrills16.scheduling),makeSeq('Technical investigation',...data.specialDrills16.technical)]:[makeSeq('Everyday conversation',...a),makeSeq('Workplace practice',...b),makeSeq('Today’s focus chunk',...f)];
 const prev=data.days.find(x=>x.day===num-1), prevChunks=prev?prev.chunks.slice(0,2).map(k=>data.G[k].ex):[];
@@ -22,11 +24,13 @@ const coachingPrompt=[
   'Act as my interactive English speaking partner for Complete English, Day '+num+'/150 ('+d.date+').',
   'This is a 30-minute speaking session. Treat this as a standalone lesson: you have all the information you need below.',
   'Today’s theme: '+d.theme+'.',
+  'Main scenario type: '+scenarioKind+'.',
   'Target expressions (use naturally, never force them): '+today.map(c=>c.phrase).join('; ')+'.',
   '',
   'SESSION FLOW:',
   'Part 1 — Everyday conversation (10 minutes). Begin with: '+d.small+' Ask realistic follow-up questions based only on my actual answers.',
-  'Part 2 — '+(isInterview?'Interview':'Scenario')+' (15 minutes). Use this opening prompt: '+d.scenario+' Continue with adaptive questions or role-play situations; do not invent my background or give me scripted answers.',
+  'Part 2 — '+scenarioLabel+' (15 minutes). Use this opening prompt: '+d.scenario+' Continue with adaptive questions or role-play situations; do not invent my background or give me scripted answers.',
+  scenarioKind==='workplace'?'In the workplace exercise, make me explain the engineering decisions, trade-offs, release or cloud service steps and ask realistic clarifying questions. Do not invent our deployment environment or require exact services without requirements.': 'Keep Part 2 focused on the scenario type rather than forcing an unrelated software engineering discussion.',
   isInterview?'Part 3 — Feedback (3 minutes): identify up to three meaningful problems you actually heard or read, focusing on clarity, grammar and natural phrasing. Then ask me to retry my answer (2 minutes).':
     'Part 3 — Progressive recap (5 minutes). Ask me to explain the main idea in 60 seconds, then 45, then 30, one attempt at a time. Focus on clarity, not speed.',
   '',
@@ -46,7 +50,7 @@ const speakingPanelHtml=
  '<div class="section" id="speaking">'+
  '<h2>04 — Spontaneous speaking <small>30 minutes</small></h2>'+
  '<div class="grid2"><div class="panel"><h3>Everyday conversation · 10 min</h3><p><b>Opening question:</b> '+esc(d.small)+'</p><p class="small">A short, truthful answer is enough. Try: answer → one detail → optional question back. No plans yet? Say so.</p></div>'+
- '<div class="panel"><h3>'+(isInterview?'Interview':'Scenario')+' · 15 min</h3><p><b>Opening prompt:</b> '+esc(d.scenario)+'</p><p class="small">Explain your actual thinking, then retry if needed.</p></div></div>'+
+ '<div class="panel"><h3>'+esc(scenarioLabel)+' · 15 min</h3><p><b>Opening prompt:</b> '+esc(d.scenario)+'</p><p class="small">Explain your actual thinking, then retry if needed.</p></div></div>'+
  '<div class="grid2 practice-routes">'+
  '<div class="panel voice-route">'+
  '<div class="route-heading"><span class="route-symbol" aria-hidden="true">🎙</span><div><h3>Option A · AI Voice partner</h3><p class="small">A conversation partner that knows today’s topic and target chunks.</p></div></div>'+
