@@ -8,6 +8,18 @@ Complete English is a free public learning **experiment**, not a certified cours
 
 The main challenge being addressed is retrieval **in the middle of a sentence**, not necessarily anxiety or mental translation. Never invent learner performance, pronunciation errors, metrics, professional experience or achievements. Mix everyday life with real-world professional and occasional technical scenarios. Do not publish confidential work details, personal records, medical or family information.
 
+## Everyday-life fluency and spontaneous idea generation
+
+**Everyday English is the default.** This is not a professional-English-only course. From Day 18 onward, use **five everyday-led speaking days in every seven-day cycle** and reserve the two established interview days (N % 7 = 1 or 4) for 15-minute technical/behavioural interview practice. Maintain the 10-minute **non-technical everyday small-talk block on every day**, including interview days. A technical or workplace contrast example for a chunk is fine; it must not turn the entire speaking scenario into an incident report.
+
+Rotate non-technical contexts: weekends (including no plans yet), family, food, cooking, shopping, errands, invitations, weather, neighbours, entertainment, hobbies, travel, public transport, appointments, opinions, daily routines, leisure and friendly social exchanges. Change people, situations and question framing frequently; avoid the same 'neighbour' or 'colleague' opener each day. Sometimes include *casual social conversation with a recruiter* before an interview; the challenge is still ordinary language.
+
+**Train the missing step: forming an idea before expressing it.** On each day, within the existing 10-minute small-talk section, ask at least one **unexpected, low-pressure, non-technical question**. Allow a moment to think, then practise **short honest answer → one simple detail → optional return question**. "I haven't decided yet", "No plans so far", and "I might take it easy" are valid starting answers. The learner never needs to fabricate a weekend plan, achievement or interesting personal story to make conversation.
+
+If they cannot think of an idea, offer two or three **categories**, not a complete answer (e.g. resting, household errands, family time). First accept one truthful sentence; then ask for one detail. Practise changing subjects quickly: 3–5 unrelated ordinary-life questions as part of the existing reflex or speaking block, with hidden model answers and gentle retries. The objective is recovering and continuing after a blank, **not** speaking faster or appearing impressive.
+
+This emphasis applies **prospectively**; do not rewrite the recorded historical lessons to pretend the original course had this balance.
+
 ## Identity and schedule
 
 - Start date / Day 1: 2026-10-29 in America/Sao_Paulo.
@@ -48,9 +60,9 @@ Before publishing, simulate EVERY cue against the prior sentence and proofread E
 
 ### 3. Spontaneous Speaking (30 minutes)
 
-On normal days: 10m everyday small talk + 15m professional/everyday role-play + 5m progressive recap 60s, 45s, 30s (concise, never rushed).
+On normal days: 10m everyday small talk (surprise questions + brief answer/detail/return scaffold) + 15m **everyday-life scenario** + 5m progressive recap 60s, 45s, 30s (concise, never rushed). Do not default to job incidents.
 
-Interview day when N % 7 = 1 or 4: 10m small talk + 15m alternating behavioral/technical interview + 3m feedback (at most three important corrections actually observed) + 2m retry; **do not add 3–2–1**.
+Interview day when N % 7 = 1 or 4: 10m **non-technical recruiter small talk**, including honest answers about normal life + 15m alternating behavioral/technical interview + 3m feedback (at most three important corrections actually observed) + 2m retry; **do not add 3–2–1**.
 
 Provide TWO clearly separate responsive cards:
 - **Option A · AI Voice partner:** three concise steps; copy a **complete, self-contained, lesson-specific prompt**, paste into ANY voice-enabled AI assistant (e.g. ChatGPT, Gemini or Claude **when supported**), then start voice mode in that same conversation. One button: "Copy coaching prompt". Full prompt lives inside a collapsed "Preview or manually copy the prompt" with readonly selectable text. It includes the actual day, date, theme, all six chunks, initial small-talk question, scenario, timing, and clear instructions: ask **only one question at a time**, wait for real learner answers, adapt follow-ups, encourage paraphrase/retry, and never invent scores, pronunciation findings or user experiences. **The HTML site cannot start an AI voice session or listen to the user.** Provider availability varies.
