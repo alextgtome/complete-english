@@ -28,6 +28,24 @@ If they cannot think of an idea, offer two or three **categories**, not a comple
 
 This **balanced** emphasis applies **prospectively from Day 18**; do not rewrite the recorded historical lessons to pretend the original course had this balance. Each new lesson record must include `scenario_type` (`everyday`, `workplace`, or `interview`) matching the rotation and verified by automated tests.
 
+## Figurative language and tolerance of ambiguity (from Day 18)
+
+Teach **metaphor** (noun), **metaphorical** (adjective), **figurative language** (general category) and the distinction between literal meaning and context-dependent meaning. Also practise *tolerance of ambiguity*: learners should be able to understand the overall message even if one expression is unfamiliar. This does **not** mean guessing recklessly when the unknown term controls a safety-critical or decisive technical requirement; in that case, clarify.
+
+**Daily micro-practice (within the existing five-minute Noticing block, NOT extra minutes):** For every Day N >= 18, include one `ambiguity` exercise in the day record with six nonempty fields:
+- `sentence`: one natural contextual sentence, mixing daily-life, workplace and interview topics across the week;
+- `expression`: the unfamiliar or figurative expression encountered;
+- `gist_question`: one question about the *entire sentence*, answerable without a precise dictionary definition;
+- `plain_english`: the expression's approximate meaning in simpler English;
+- `context_clue`: which nearby words help infer the meaning, and what degree of uncertainty remains;
+- `gist_answer`: a plain-English answer to the overall comprehension question.
+
+On the website, show the sentence and gist question **before** a collapsible meaning/explanation. Learners should: **read through → infer a rough meaning → answer the gist → reveal → continue**. They can use surrounding words first and skip the unfamiliar expression temporarily if its exact meaning is unnecessary. Keep this short (~60–90 seconds inside Noticing). Do not automatically translate every unfamiliar word into Portuguese, interrupt the speaking flow, or present model answers before an attempt. In voice practice, accept approximations and encourage asking for clarification when the missing piece is essential.
+
+**Dedicated metaphor lesson:** Set **Day 19 (2026-11-16)** as a workplace-scenario lesson on **"Metaphors and meaning in everyday and technical English"**. Teach the concepts explicitly in the existing 15-minute foundations rotation or 5-minute Noticing block (no extra time), with familiar-word/new-meaning examples such as *grounded in current information*, *on the same page*, *a bottleneck*, *under the hood*, *at the root of the issue*, alongside plain-English paraphrases. Contrast literal and figurative readings; show how to decide the intended meaning from context. Select any three NEW registered chunks only after verifying no prior appearance; metaphor terminology and example phrases **do not automatically count** as all three NEW chunks. The 15-minute main speaking scenario must remain **Workplace / Engineering**, consistent with the 3+2+2 rotation. If Day 19 has already been committed before this change is executed, preserve it and schedule the full metaphor lesson for the next available Workplace day instead of overwriting history.
+
+**Spaced follow-up:** On Days 26 and 33 (workplace days), revisit metaphorical meanings and ambiguity recovery using fresh sentences, without repeating the exact examples. Other days still get one brief ambiguity exercise. Track actual first-use chunks in the canonical registry, do not fabricate new first appearances.
+
 ## Identity and schedule
 
 - Start date / Day 1: 2026-10-29 in America/Sao_Paulo.
