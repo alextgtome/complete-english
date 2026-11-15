@@ -120,7 +120,7 @@ for (const [index, lesson] of data.days.entries()) {
     }
   }
   const metaphorFocus = awareness.dedicated_metaphor_lesson;
-  if (metaphorFocus && n === metaphorFocus.preferred_day) {
+  if (metaphorFocus && (metaphorFocus.recurring_focus_days || [metaphorFocus.preferred_day]).includes(n)) {
     if (lesson.scenario_type !== metaphorFocus.scenario_type) {
       fail('Dedicated metaphor Day '+n+' must retain its scheduled scenario type');
     }
