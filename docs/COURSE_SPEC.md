@@ -10,7 +10,15 @@ The main challenge being addressed is retrieval **in the middle of a sentence**,
 
 ## Everyday-life fluency and spontaneous idea generation
 
-**Everyday English is the default.** This is not a professional-English-only course. From Day 18 onward, use **five everyday-led speaking days in every seven-day cycle** and reserve the two established interview days (N % 7 = 1 or 4) for 15-minute technical/behavioural interview practice. Maintain the 10-minute **non-technical everyday small-talk block on every day**, including interview days. A technical or workplace contrast example for a chunk is fine; it must not turn the entire speaking scenario into an incident report.
+**Balanced fluency: everyday English + real workplace English + interviews.** This is neither a professional-only course nor a generic social-English-only course. From Day 18 onward, divide each seven-day cycle's **15-minute main speaking scenarios** as follows:
+- **3 Everyday scenarios** (N % 7 = 0, 3, 6): personal routines, spontaneous plans, shopping, social conversation and common situations outside a technical meeting.
+- **2 Workplace / Engineering scenarios** (N % 7 = 2, 5): real software-engineering communication **on the job**, not just technical interview questions.
+- **2 Interview scenarios** (N % 7 = 1, 4): alternate technical/system design with behavioural/career storytelling.
+Every day, **including Workplace and Interview days**, begins with a separate **10-minute non-technical small-talk block**. These ratios apply to the 15-minute scenario segments, not the full 90-minute lesson: foundations and chunks can include both everyday and technical contrasts on any day. Do not remove or dilute technical communication.
+
+**Workplace English must be concrete and varied**. Repeatedly practise explaining an AWS deployment / release / rollback, choosing between Lambda, ECS or EKS when requirements justify it, clarifying which cloud service to provision, discussing API contracts and versioning, integration boundaries, queue/message design, incident mitigation, monitoring, code reviews, testing, CI/CD pipelines, team meetings, technical trade-offs and decisions. Choose one coherent context per workplace day, ask realistic follow-ups, and require the learner to justify trade-offs clearly rather than merely name services. Include communication functions such as asking for clarification, pushing back politely, giving progress updates and proposing next steps. Avoid inventing personal employment achievements or assuming specific infrastructure is deployed.
+
+**Social English inside work is equally important:** colleagues and recruiters can ask about weekend plans, family, hobbies or a holiday. Treat that as everyday small talk, not a technical response.
 
 Rotate non-technical contexts: weekends (including no plans yet), family, food, cooking, shopping, errands, invitations, weather, neighbours, entertainment, hobbies, travel, public transport, appointments, opinions, daily routines, leisure and friendly social exchanges. Change people, situations and question framing frequently; avoid the same 'neighbour' or 'colleague' opener each day. Sometimes include *casual social conversation with a recruiter* before an interview; the challenge is still ordinary language.
 
@@ -18,7 +26,7 @@ Rotate non-technical contexts: weekends (including no plans yet), family, food, 
 
 If they cannot think of an idea, offer two or three **categories**, not a complete answer (e.g. resting, household errands, family time). First accept one truthful sentence; then ask for one detail. Practise changing subjects quickly: 3–5 unrelated ordinary-life questions as part of the existing reflex or speaking block, with hidden model answers and gentle retries. The objective is recovering and continuing after a blank, **not** speaking faster or appearing impressive.
 
-This emphasis applies **prospectively**; do not rewrite the recorded historical lessons to pretend the original course had this balance.
+This **balanced** emphasis applies **prospectively from Day 18**; do not rewrite the recorded historical lessons to pretend the original course had this balance. Each new lesson record must include `scenario_type` (`everyday`, `workplace`, or `interview`) matching the rotation and verified by automated tests.
 
 ## Identity and schedule
 
@@ -60,7 +68,7 @@ Before publishing, simulate EVERY cue against the prior sentence and proofread E
 
 ### 3. Spontaneous Speaking (30 minutes)
 
-On normal days: 10m everyday small talk (surprise questions + brief answer/detail/return scaffold) + 15m **everyday-life scenario** + 5m progressive recap 60s, 45s, 30s (concise, never rushed). Do not default to job incidents.
+On non-interview days: 10m everyday small talk (surprise questions + honest answer/detail/return scaffold) + 15m **scenario of the day's type (Everyday or Workplace/Engineering)** + 5m progressive recap 60s, 45s, 30s (concise, never rushed). The 3 Everyday and 2 Workplace sessions per cycle are both required; never replace workplace practice with additional social-only drills.
 
 Interview day when N % 7 = 1 or 4: 10m **non-technical recruiter small talk**, including honest answers about normal life + 15m alternating behavioral/technical interview + 3m feedback (at most three important corrections actually observed) + 2m retry; **do not add 3–2–1**.
 
