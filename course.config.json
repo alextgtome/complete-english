@@ -30,5 +30,16 @@
   "lesson_path_pattern": "lessons/day-NNN.html",
   "registry": "data/lessons.js",
   "spec": "docs/COURSE_SPEC.md",
-  "runbook": "docs/DAILY_RUNBOOK.md"
+  "runbook": "docs/DAILY_RUNBOOK.md",
+  "speaking_mix": {
+    "everyday_led_days_per_seven": 5,
+    "interview_led_days_per_seven": 2,
+    "interview_modulo_7": [
+      1,
+      4
+    ],
+    "prospective_from_day": 18,
+    "unexpected_everyday_small_talk_each_day": true,
+    "idea_generation_scaffold": "short truthful answer → one detail → optional return question"
+  }
 }
