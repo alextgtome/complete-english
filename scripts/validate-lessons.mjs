@@ -160,7 +160,7 @@ if (!Array.isArray(data.reflexPool) || data.reflexPool.length < 8) {
 let drillSteps = 0;
 const invalidAgreement = [
   /\b(?:our engineers|the engineers|we|they|you|i)\s+(?:checks|does|is|has|works|needs|runs|plans|tests|reviews)\b/i,
-  /\b(?:he|she|it|the team)\s+(?:are|do|have)\s+(?:the |an? )?(?:checks|reviews|tests)?\b/i,
+  /\b(?:he|she|it)\s+(?:are|do|have)\b/i,
 ];
 function inspectDrill(day, label, item) {
   if (!Array.isArray(item) || !truthyText(item[0]) || !Array.isArray(item[1])) {
