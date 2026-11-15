@@ -44,6 +44,20 @@ if (!config || !data) {
 if (config.total_days !== 150 || config.start_date !== '2026-10-29' || config.timezone !== 'America/Sao_Paulo') {
   fail('Course identity/config must retain 150 days, 2026-10-29 start and America/Sao_Paulo timezone');
 }
+const speakingMix = config.speaking_mix || {};
+const scenarioRotation = speakingMix.scenario_type_by_modulo_7 || {};
+const expectedRotation = { 0:'everyday', 1:'interview', 2:'workplace', 3:'everyday', 4:'interview', 5:'workplace', 6:'everyday' };
+for (const [remainder, expected] of Object.entries(expectedRotation)) {
+  if (scenarioRotation[remainder] !== expected) {
+    fail('Speaking rotation must assign remainder ' + remainder + ' to ' + expected);
+  }
+}
+for (const [category, count] of [['everyday', 3],['workplace', 2],['interview', 2]]) {
+  const field = category + '_scenario_days_per_seven';
+  if (speakingMix[field] !== count) fail('Expected '+count+' '+category+' scenario days each week');
+}
+if (speakingMix.prospective_from_day !== 18) fail('New scenario rotation must apply from Day 18');
+
 const mins = config.daily_minutes || {};
 if (mins.foundations !== 15 || mins.chunks !== 35 || mins.speaking !== 30 || mins.writing !== 10) {
   fail('Daily minutes must remain exactly 15 + 35 + 30 + 10');
@@ -94,6 +108,13 @@ for (const [index, lesson] of data.days.entries()) {
     if (!truthyText(lesson[field])) fail('Day ' + n + ' lacks ' + field);
   }
   if (!data.F[lesson.micro]) fail('Day ' + n + ' uses unknown foundations skill ' + lesson.micro);
+  if (n >= speakingMix.prospective_from_day) {
+    const required = scenarioRotation[String(n % 7)];
+    if (lesson.scenario_type !== required) {
+      fail('Day ' + n + ' must have scenario_type "' + required +
+           '", got "' + String(lesson.scenario_type) + '"');
+    }
+  }
   const chunks = lesson.chunks;
   const expectedCount = n === 1 ? 7 : 6;
   if (!Array.isArray(chunks) || chunks.length !== expectedCount) {
