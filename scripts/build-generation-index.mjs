@@ -27,11 +27,14 @@ const chunks = Object.entries(registry.G)
   .map(([id, value]) => [id, value.phrase, value.d])
   .sort((a,b) => a[2] - b[2] || a[0].localeCompare(b[0]));
 
-const topics = registry.days.map(d => [d.day, d.theme, d.micro]);
+const topics = registry.days.map(d => d.scenario_type
+  ? [d.day, d.theme, d.micro, d.scenario_type]
+  : [d.day, d.theme, d.micro]);
 
 const recent = registry.days.slice(-7).map(d => ({
   day: d.day, date: d.date, theme: d.theme, foundation: d.micro,
   everyday: d.small, scenario: d.scenario,
+  ...(d.scenario_type ? { scenario_type: d.scenario_type } : {}),
   new: d.chunks.filter(id => registry.G[id]?.d === d.day),
   review: d.chunks.filter(id => registry.G[id]?.d < d.day),
 }));
