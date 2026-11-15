@@ -109,6 +109,16 @@ for (const [index, lesson] of data.days.entries()) {
   }
   if (!data.F[lesson.micro]) fail('Day ' + n + ' uses unknown foundations skill ' + lesson.micro);
   if (!['everyday','workplace','interview'].includes(lesson.scenario_type)) fail('Day '+n+' lacks an accurate scenario_type classification');
+  const awareness = config.language_awareness || {};
+  if (n >= (awareness.start_day ?? 18)) {
+    const exercise = lesson.ambiguity;
+    const fields = awareness.required_fields || ['sentence','expression','gist_question','plain_english','context_clue','gist_answer'];
+    if (!exercise || !fields.every(f => truthyText(exercise[f]))) {
+      fail('Day '+n+' requires complete ambiguity micropractice ('+fields.join(', ')+')');
+    } else if (!exercise.sentence.toLowerCase().includes(exercise.expression.toLowerCase())) {
+      fail('Day '+n+' ambiguity expression must occur in the context sentence');
+    }
+  }
   if (n >= speakingMix.prospective_from_day) {
     const required = scenarioRotation[String(n % 7)];
     if (lesson.scenario_type !== required) {
