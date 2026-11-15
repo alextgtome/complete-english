@@ -57,5 +57,8 @@
       "architecture trade-offs and technical decisions",
       "code review and team collaboration"
     ]
-  }
+  },
+  "lesson_manifest": "data/lesson-manifest.json",
+  "lesson_records_pattern": "data/lesson-records/<type>/day-NNN.json",
+  "catalog_generator": "scripts/build-lesson-catalog.mjs"
 }
