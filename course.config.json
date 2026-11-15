@@ -78,12 +78,34 @@
       "preferred_day": 19,
       "date": "2026-11-16",
       "scenario_type": "workplace",
-      "theme": "Metaphors and meaning in everyday and technical English"
+      "theme": "Metaphors and meaning in everyday and technical English",
+      "recurrence_interval_days": 28,
+      "recurring_focus_days": [
+        19,
+        47,
+        75,
+        103,
+        131
+      ],
+      "focus_variations": {
+        "19": "Literal versus figurative meaning; grounded in data and basic metaphors",
+        "47": "Conversational metaphors and everyday idiomatic meaning",
+        "75": "Architecture metaphors, system bottlenecks and context clues",
+        "103": "Workplace priorities, business trade-offs and figurative language",
+        "131": "Paraphrasing unfamiliar expressions and keeping comprehension moving"
+      }
     },
     "spaced_reinforcement_days": [
       26,
       33
     ],
-    "retry_rule": "If the preferred focus day exists, retain historical material and use the next uncommitted workplace day."
+    "retry_rule": "If the preferred focus day exists, retain historical material and use the next uncommitted workplace day.",
+    "daily_practice_topics": [
+      "metaphors",
+      "words with multiple meanings",
+      "idioms",
+      "phrasal verbs",
+      "contextual expressions"
+    ]
   }
 }
