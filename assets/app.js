@@ -16,7 +16,7 @@ const F=data.F[d.micro],rr=Array.from({length:10},(_,i)=>data.reflexPool[((num*3
 const today=d.chunks.map(id=>data.G[id]),initial=today.filter(x=>x.d===num).length;
 const isInterview=num%7===1||num%7===4, old=num<=10?'Original lesson: 15 / 20 / 45 / 10 minutes.':'Original lesson: 15 / 35 / 30 / 10 minutes.';
 const a=data.av[(num-1)%data.av.length],b=data.bv[(num-1)%data.bv.length],f=data.focusDrills[num];
-const seqs=num===16?[makeSeq('Everyday conversation',...f),makeSeq('Scheduling and agreement',...window.CE_SPECIAL16B),makeSeq('Technical investigation',...window.CE_SPECIAL16C)]:[makeSeq('Everyday conversation',...a),makeSeq('Workplace practice',...b),makeSeq('Today’s focus chunk',...f)];
+const seqs=num===16?[makeSeq('Everyday conversation',...f),makeSeq('Scheduling and agreement',...data.specialDrills16.scheduling),makeSeq('Technical investigation',...data.specialDrills16.technical)]:[makeSeq('Everyday conversation',...a),makeSeq('Workplace practice',...b),makeSeq('Today’s focus chunk',...f)];
 const prev=data.days.find(x=>x.day===num-1), prevChunks=prev?prev.chunks.slice(0,2).map(k=>data.G[k].ex):[];
 const coachingPrompt=[
   'Act as my interactive English speaking partner for Complete English, Day '+num+'/150 ('+d.date+').',
@@ -92,7 +92,5 @@ document.getElementById('copyVoice').addEventListener('click',async ()=>{
 });
 let seconds=60,interval=null;function update(){document.getElementById('clock').textContent=String(Math.floor(seconds/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0')};document.querySelectorAll('[data-secs]').forEach(b=>b.addEventListener('click',()=>{clearInterval(interval);interval=null;seconds=Number(b.dataset.secs);update()}));document.getElementById('timerStart').addEventListener('click',()=>{if(interval){clearInterval(interval);interval=null;return}if(seconds===0)seconds=60;update();interval=setInterval(()=>{seconds=Math.max(0,seconds-1);update();if(seconds===0){clearInterval(interval);interval=null}},1000)})}
 function makeSeq(name,base,pairs){let current=base;return {name,base,steps:pairs.map(([from,to,note])=>{if(!current.includes(from))return {from,to,note,result:'Check the cue against the previous sentence'};current=current.replace(from,to);return {from,to,note,result:current}})}}
-window.CE_SPECIAL16B=["Tuesday at ten works for me.",[["Tuesday","Thursday"],["ten","eleven"],["me","our team"],["Thursday","Friday"],["eleven","nine"]]];
-window.CE_SPECIAL16C=["We should rule out a network issue first.",[["a network issue","a database issue"],["We","The team"],["should","needs to"],["a database issue","a caching problem"],["first","before the release"]]];
 if(document.body.dataset.view==='home')overview();else lesson();
 })();
