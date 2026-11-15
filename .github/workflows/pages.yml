@@ -21,6 +21,8 @@ jobs:
           node-version: '22'
       - name: Check shared JavaScript syntax
         run: node --check assets/app.js
+      - name: Ensure compact generation index matches canonical history
+        run: node scripts/build-generation-index.mjs --check
       - name: Validate lesson registry and drills
         run: node scripts/validate-lessons.mjs
   publish:
