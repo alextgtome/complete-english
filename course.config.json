@@ -60,5 +60,30 @@
   },
   "lesson_manifest": "data/lesson-manifest.json",
   "lesson_records_pattern": "data/lesson-records/<type>/day-NNN.json",
-  "catalog_generator": "scripts/build-lesson-catalog.mjs"
+  "catalog_generator": "scripts/build-lesson-catalog.mjs",
+  "language_awareness": {
+    "start_day": 18,
+    "daily_practice": "tolerance_of_ambiguity",
+    "inside_block": "natural_chunks.noticing",
+    "approximate_seconds": 90,
+    "required_fields": [
+      "sentence",
+      "expression",
+      "gist_question",
+      "plain_english",
+      "context_clue",
+      "gist_answer"
+    ],
+    "dedicated_metaphor_lesson": {
+      "preferred_day": 19,
+      "date": "2026-11-16",
+      "scenario_type": "workplace",
+      "theme": "Metaphors and meaning in everyday and technical English"
+    },
+    "spaced_reinforcement_days": [
+      26,
+      33
+    ],
+    "retry_rule": "If the preferred focus day exists, retain historical material and use the next uncommitted workplace day."
+  }
 }
