@@ -32,3 +32,10 @@ main{max-width:1150px;margin:auto;padding:38px 22px 80px}.eyebrow{font-size:11px
 
 /* Explicit grammar-dependent substitution note */
 .cue-note{display:block;margin-top:4px;color:var(--teal);font-size:12px;font-weight:600;line-height:1.45}
+
+/* Archive filters — existing lessons grouped by their actual scenario focus */
+.archive-controls{align-items:center}
+.archive-filters{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.archive-filters select{max-width:220px;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);font:inherit;font-size:13px}
+.focus-label{font-size:11px!important;font-weight:700;color:var(--teal)!important;margin-top:8px!important}
+@media(max-width:600px){.archive-filters{width:100%}.archive-filters select,.archive-filters .search{width:100%;max-width:none}}
