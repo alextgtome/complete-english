@@ -32,14 +32,30 @@
   "spec": "docs/COURSE_SPEC.md",
   "runbook": "docs/DAILY_RUNBOOK.md",
   "speaking_mix": {
-    "everyday_led_days_per_seven": 5,
-    "interview_led_days_per_seven": 2,
-    "interview_modulo_7": [
-      1,
-      4
-    ],
+    "everyday_scenario_days_per_seven": 3,
+    "workplace_scenario_days_per_seven": 2,
+    "interview_scenario_days_per_seven": 2,
+    "scenario_type_by_modulo_7": {
+      "0": "everyday",
+      "1": "interview",
+      "2": "workplace",
+      "3": "everyday",
+      "4": "interview",
+      "5": "workplace",
+      "6": "everyday"
+    },
     "prospective_from_day": 18,
     "unexpected_everyday_small_talk_each_day": true,
-    "idea_generation_scaffold": "short truthful answer → one detail → optional return question"
+    "idea_generation_scaffold": "short truthful answer → one detail → optional return question",
+    "workplace_topic_examples": [
+      "AWS deployment and rollback",
+      "service selection (Lambda/ECS/EKS)",
+      "API contracts and versioning",
+      "messaging and asynchronous integration",
+      "CI/CD and release",
+      "monitoring and incident communication",
+      "architecture trade-offs and technical decisions",
+      "code review and team collaboration"
+    ]
   }
 }
