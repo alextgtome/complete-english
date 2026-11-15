@@ -119,6 +119,18 @@ for (const [index, lesson] of data.days.entries()) {
       fail('Day '+n+' ambiguity expression must occur in the context sentence');
     }
   }
+  const metaphorFocus = awareness.dedicated_metaphor_lesson;
+  if (metaphorFocus && n === metaphorFocus.preferred_day) {
+    if (lesson.scenario_type !== metaphorFocus.scenario_type) {
+      fail('Dedicated metaphor Day '+n+' must retain its scheduled scenario type');
+    }
+    if (!/metaphor|figurative/i.test(lesson.theme || '')) {
+      fail('Dedicated metaphor Day '+n+' needs a clearly named metaphor or figurative-language theme');
+    }
+    if (!/metaphor|figurative/i.test([lesson.noticing, lesson.foundationExtra].join(' '))) {
+      fail('Dedicated metaphor Day '+n+' must explain literal versus figurative meaning in Noticing or Foundations');
+    }
+  }
   if (n >= speakingMix.prospective_from_day) {
     const required = scenarioRotation[String(n % 7)];
     if (lesson.scenario_type !== required) {
