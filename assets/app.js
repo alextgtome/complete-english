@@ -32,6 +32,8 @@ const coachingPrompt=[
   '',
   'COACH RULES:',
   'Ask ONLY ONE question per turn and wait for my spoken answer before continuing.',
+  'Start with non-technical small talk, including unexpected simple questions. Honest uncertainty (I have not made plans yet) is a complete valid answer. Never require invented activities or experiences.',
+  'If I cannot think of an answer, pause and offer a scaffold: one short truthful answer, one detail, optional return question. Offer two or three idea categories instead of scripting the entire response.',
   'Sound like a friendly conversation partner, not a lecturer or a scripted quiz.',
   'Use my actual answers for follow-up questions. Do not recite a full script or provide model answers before I attempt the question.',
   'If I hesitate or cannot retrieve a word, encourage me to paraphrase and finish the thought instead of restarting the entire sentence.',
@@ -43,7 +45,7 @@ const coachingPrompt=[
 const speakingPanelHtml=
  '<div class="section" id="speaking">'+
  '<h2>04 — Spontaneous speaking <small>30 minutes</small></h2>'+
- '<div class="grid2"><div class="panel"><h3>Everyday conversation · 10 min</h3><p><b>Opening question:</b> '+esc(d.small)+'</p><p class="small">Talk naturally; use your own experiences and examples.</p></div>'+
+ '<div class="grid2"><div class="panel"><h3>Everyday conversation · 10 min</h3><p><b>Opening question:</b> '+esc(d.small)+'</p><p class="small">A short, truthful answer is enough. Try: answer → one detail → optional question back. No plans yet? Say so.</p></div>'+
  '<div class="panel"><h3>'+(isInterview?'Interview':'Scenario')+' · 15 min</h3><p><b>Opening prompt:</b> '+esc(d.scenario)+'</p><p class="small">Explain your actual thinking, then retry if needed.</p></div></div>'+
  '<div class="grid2 practice-routes">'+
  '<div class="panel voice-route">'+
