@@ -108,6 +108,7 @@ for (const [index, lesson] of data.days.entries()) {
     if (!truthyText(lesson[field])) fail('Day ' + n + ' lacks ' + field);
   }
   if (!data.F[lesson.micro]) fail('Day ' + n + ' uses unknown foundations skill ' + lesson.micro);
+  if (!['everyday','workplace','interview'].includes(lesson.scenario_type)) fail('Day '+n+' lacks an accurate scenario_type classification');
   if (n >= speakingMix.prospective_from_day) {
     const required = scenarioRotation[String(n % 7)];
     if (lesson.scenario_type !== required) {
