@@ -35,6 +35,17 @@ Open `index.html` or enable [GitHub Pages](https://docs.github.com/en/pages/quic
 
 **Daily publishing:** Add a record to `data/lessons.js`, create `lessons/day-NNN.html` referencing existing assets, then commit to `develop`. Do not overwrite previous days.
 
+## For contributors and maintainers
+
+The curriculum and automation rules are versioned in [Course Specification](docs/COURSE_SPEC.md), [Daily Publishing Runbook](docs/DAILY_RUNBOOK.md), and [course.config.json](course.config.json). These documents are the source of truth for the scheduled lesson generator.
+
+The automated quality gate runs the [lesson validator](scripts/validate-lessons.mjs) and checks shared JavaScript syntax **before** deploying to GitHub Pages:
+
+    node --check assets/app.js
+    node scripts/validate-lessons.mjs
+
+It checks lesson chronology, first-use chunk IDs, duplicate phrases, HTML references, cumulative substitution cues and several known grammar regression patterns. These tests are not a substitute for editorial review: natural idiomatic English and scenario quality still require careful inspection.
+
 ## Pages publishing
 
 This repository includes `.github/workflows/pages.yml`, configured to deploy the static site from the `develop` branch after each push. In GitHub repository Settings → Pages, select **GitHub Actions** as the build/deployment source. Then check **Actions → Publish Complete English site** for the deployment result. The site address is `https://alextgtome.github.io/complete-english/` once GitHub Pages reports a successful deployment.
