@@ -44,11 +44,12 @@ The scheduled agent uses a **tiny [lesson manifest](data/lesson-manifest.json)**
 The automated quality gate runs the [lesson validator](scripts/validate-lessons.mjs), checks the generation index and checks shared JavaScript syntax **before** deploying to GitHub Pages:
 
     node --check assets/app.js
+    node scripts/validate-lesson-layout.mjs
     node scripts/build-generation-index.mjs --check
     node scripts/build-lesson-catalog.mjs --check
     node scripts/validate-lessons.mjs
 
-It checks lesson chronology, first-use chunk IDs, duplicate phrases, HTML references, cumulative substitution cues and several known grammar regression patterns. These tests are not a substitute for editorial review: natural idiomatic English and scenario quality still require careful inspection.
+It checks lesson chronology, first-use chunk IDs, duplicate phrases, HTML references, cumulative substitution cues and several known grammar regression patterns. Layout tests also render every existing lesson using shared JavaScript to enforce the order Foundations → Chunks (six/seven cards + five connected steps) → Speaking → Writing. These tests are not a substitute for editorial review: natural idiomatic English and scenario quality still require careful inspection.
 
 ## Pages publishing
 
