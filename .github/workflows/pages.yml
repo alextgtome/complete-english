@@ -21,6 +21,8 @@ jobs:
           node-version: '22'
       - name: Check shared JavaScript syntax
         run: node --check assets/app.js
+      - name: Verify all lesson pages keep chunk activities together
+        run: node scripts/validate-lesson-layout.mjs
       - name: Ensure compact generation index matches canonical history
         run: node scripts/build-generation-index.mjs --check
       - name: Verify per-day records and tiny lesson manifest
