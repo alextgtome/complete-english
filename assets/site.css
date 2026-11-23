@@ -39,3 +39,23 @@ main{max-width:1150px;margin:auto;padding:38px 22px 80px}.eyebrow{font-size:11px
 .archive-filters select{max-width:220px;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);font:inherit;font-size:13px}
 .focus-label{font-size:11px!important;font-weight:700;color:var(--teal)!important;margin-top:8px!important}
 @media(max-width:600px){.archive-filters{width:100%}.archive-filters select,.archive-filters .search{width:100%;max-width:none}}
+
+
+/* Natural Chunks: one clearly connected five-step activity */
+.chunk-intro{margin:0 0 15px!important;font-size:14px;line-height:1.6;color:var(--ink);padding-left:13px;border-left:3px solid var(--teal)}
+.chunk-workflow{margin-top:24px}
+.chunk-workflow h3{font-size:19px;margin:4px 0 10px}
+.chunk-roadmap{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;list-style:none;padding:0;margin:20px 0 4px}
+.chunk-roadmap li{background:var(--soft);border:1px solid var(--line);border-radius:9px;padding:11px;text-align:center;font-size:12px;line-height:1.4}
+.chunk-roadmap li b{display:block;color:var(--teal);font-size:13px;margin-bottom:3px}
+.chunk-roadmap li span{display:block;color:var(--ink)}
+.chunk-practice-step{scroll-margin-top:22px;padding:22px 1px 24px;border-bottom:1px solid var(--line)}
+.chunk-practice-step:last-child{border-bottom:0}
+.chunk-practice-step h3{font-size:19px;color:var(--navy);margin:4px 0 12px}
+.chunk-practice-step>p{max-width:850px}
+.step-kicker{color:var(--teal);font-size:11px;font-weight:800;letter-spacing:.065em;margin:0 0 3px!important}
+.ambiguity-inline{padding:15px 18px;margin-top:17px;border:1px solid var(--line);border-radius:10px;background:var(--soft)}
+.ambiguity-inline h4{margin:0 0 8px;color:var(--navy);font-size:14px}
+.ambiguity-inline h4 small{display:block;font-weight:400;color:var(--muted)}
+.ambiguity-inline .detail{background:var(--panel)}
+@media(max-width:760px){.chunk-roadmap{grid-template-columns:repeat(2,minmax(0,1fr))}.chunk-roadmap li:last-child{grid-column:span 2}.chunk-practice-step h3{font-size:17px}}
