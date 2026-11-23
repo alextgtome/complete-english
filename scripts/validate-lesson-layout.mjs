@@ -51,15 +51,10 @@ for (const day of data.days) {
   if (indices.some(x=>x<0) || indices.some((x,i)=>i>0&&x<=indices[i-1])) {
     problems.push('Day '+n+': the four blocks and five chunk steps are missing or out of order');
   }
-  if (!html.includes('same six expressions you just read') ||
+  if (!html.includes('same '+day.chunks.length+' expressions you just read') ||
       !html.includes('one 35-minute exercise') ||
       !html.includes('Reading the cards is part of Step 1')) {
-    // Historical Day 1 still contains seven source cards; the shared wording
-    // refers to the standard six-chunk format, except its archived exception.
-    if (n!==1) problems.push('Day '+n+': no clear explanation that chunk cards and five steps belong together');
-  }
-  if (n===1 && !html.includes('Reading the cards is part of Step 1')) {
-    problems.push('Day 1: missing connection between chunk cards and five steps');
+    problems.push('Day '+n+': no clear explanation that chunk cards and five steps belong together');
   }
   if ((html.match(/<article class="chunk">/g)||[]).length!==day.chunks.length) {
     problems.push('Day '+n+': chunk cards do not match canonical lesson registry');
