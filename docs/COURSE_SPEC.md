@@ -77,6 +77,8 @@ Choose **exactly three truly NEW + three REVIEW** chunks. Check normalized forms
 
 Each target: English phrase, simple English meaning, specific English "When to use" cue, grammatical template or collocation warning, **two contrasting examples** (daily and professional/technical when natural). Do not misrepresent a previously learned variant as new.
 
+**UI structure is part of the lesson contract:** render the four top-level blocks in chronological order: 01 Foundations (15m), 02 Natural Chunks (35m), 03 Speaking (30m), 04 Writing (10m). All chunk cards and the five practice steps belong inside ONE clearly titled Natural Chunks section. Right after the cards, show an explicit transition like **"Next: practise these same chunks"** and a five-step roadmap. Label each practice step as 1/5 through 5/5; present Noticing, Substitutions, Real Practice, Recall and Recovery consecutively under the same section, not as scattered or separately numbered top-level lessons. The chunk cards are source material for the steps, **not another timed activity**. Preserve the actual count on historic Day 1 (seven). Avoid duplicate timing grids that appear as additional exercises. Apply the shared UI layout to all lessons; do not rewrite historical teaching content to accomplish this.
+
 Five timed parts, total 35 minutes:
 1. Noticing (5m): contextual paragraph, understand patterns.
 2. Guided cumulative substitution (10m): **three** complete series, each with a natural base sentence and **4–6 explicit transformation cues**. The learner says every entire resulting sentence before revealing an answer; cumulative cues change the preceding sentence.
