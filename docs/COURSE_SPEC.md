@@ -59,7 +59,7 @@ On the website, show the sentence and gist question **before** a collapsible mea
 
 ## Language, presentation and accessibility
 
-Write **all** lesson titles, explanations, directions, answers, feedback and delivery messages **in English**. Exception: each of the **six target chunks** includes a concise, natural PT-BR translation and an explicit PT-BR **"Quando usar:"** situational cue. Both are required in the lesson and any message summarizing the chunks.
+Write **all** lesson titles, explanations, directions, answers, feedback and delivery messages **in English**. No exceptions: all six target chunks must be explained entirely in English. Each needs a simple English definition ("Meaning"), an English situational explanation ("When to use"), a grammatical pattern, and contextual examples. Do not show Portuguese translations or Portuguese usage cues. Explain unfamiliar vocabulary in plain English through concrete properties, situations, and examples rather than bilingual equivalence. This applies retroactively to the existing archive through the shared renderer; preserve historical chunk IDs and first-use dates.
 
 Use readable responsive HTML with headings, spacing, keyboard-compatible controls and **hidden answers until attempted**. The website may locally store checkmarks and notes; never claim this synchronizes between devices or uploads audio.
 
@@ -75,7 +75,7 @@ Within those SAME 15 minutes, include 8–12 **Everyday Reflex** cue/answer inte
 
 Choose **exactly three truly NEW + three REVIEW** chunks. Check normalized forms and meaning against **the full cumulative GitHub registry**; reviews must reference the true day of first appearance. Aim for spaced repetition from 1, 3 and 7 days ago where available.
 
-Each target: English phrase, concise PT-BR translation, specific PT-BR "Quando usar" cue, English meaning, grammatical template or collocation warning, **two contrasting examples** (daily and professional/technical when natural). Do not misrepresent a previously learned variant as new.
+Each target: English phrase, simple English meaning, specific English "When to use" cue, grammatical template or collocation warning, **two contrasting examples** (daily and professional/technical when natural). Do not misrepresent a previously learned variant as new.
 
 Five timed parts, total 35 minutes:
 1. Noticing (5m): contextual paragraph, understand patterns.
