@@ -2,6 +2,10 @@
 
 Read COURSE_SPEC.md and course.config.json before creating any lesson. This runbook describes the scheduled execution and source-of-truth workflow.
 
+## Sentence-production curriculum — effective Day 27 (2026-11-24)
+
+This section supersedes conflicting earlier timing, layout and speaking instructions for Day 27 onward. Preserve Days 1–26 as historical lessons. The objective is accurate, intelligible simple sentences before stylistic fluency. Daily schedule: grammar and foundations 20m; natural chunks 15m (noticing 5, story 5, recall 3, recovery 2); intensive substitutions 30m (lexical 10, grammatical 10, mixed 10); speaking 15m (everyday 5, scenario 8, correction/retry 2); writing 10m. Retain the scenario rotation, English-only explanations, existing chunk counts and hidden answers. Every substitution series has 4–6 cumulative cues, with grammatical intermediate sentences. Include tense, questions, negatives, auxiliaries and agreement, using simple vocabulary. In each 10-minute drill, repeat the series aloud, hide answers, then produce an original variation. Correct actual errors and retry; prioritize grammar over idiomatic sophistication. Keep AI and solo routes. Future focus drills must mix lexical and grammatical changes; the shared renderer supplies a dedicated grammatical series. Do not require speed or invented performance.
+
 ## Repository structure
 
 Repository: alextgtome/complete-english; publishing branch: develop.
@@ -33,7 +37,7 @@ The root index is generated from data/lessons.js; do not add a redundant hardcod
 9. Add lessons/day-NNN.html using the neighboring thin template and referencing shared data and assets. Ensure the shared frontend can render this record; don't embed a second lesson copy in HTML.
 10. Check the shared UI: Foundations must appear before Natural Chunks; the chunk cards and all five labelled practice steps must stay together, followed by Speaking and Writing. Avoid extra unnumbered exercise panels and duplicated timing tiles. Validate **every existing lesson** via `node scripts/validate-lesson-layout.mjs`. Then check everything locally if possible: node --check assets/app.js; node scripts/build-generation-index.mjs --check; **node scripts/build-lesson-catalog.mjs --check**; node scripts/validate-lessons.mjs. The Pages workflow requires all four before deploying. Regeneration and registry edits are one logical atomic change. **Never skip a failing check**, and never claim success based on a commit alone.
 11. Commit with authorized GitHub operations and verify the resulting file reads. Check Pages deployment status separately; only link the public URL as confirmed if its deployment succeeds. Otherwise link the GitHub file and explain the status.
-12. Deliver a useful concise English lesson summary with the date, time blocks, three new and three review chunks (including their PT-BR translations and "Quando usar" cues) and a real link to the published lesson. Do not claim speaking/writing performance without samples.
+12. Deliver a useful concise English lesson summary with the date, time blocks, three new and three review chunks (including their English meanings and usage cues) and a real link to the published lesson. Do not claim speaking/writing performance without samples.
 
 ## Failure policy and maintenance
 
