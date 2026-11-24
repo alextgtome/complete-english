@@ -2,6 +2,10 @@
 
 This is the canonical, versioned teaching specification. It replaces the accumulation of rules inside the daily ChatGPT automation. See DAILY_RUNBOOK.md, course.config.json and data/lessons.js.
 
+## Sentence-production curriculum — effective Day 27 (2026-11-24)
+
+This section supersedes conflicting earlier timing, layout and speaking instructions for Day 27 onward. Preserve Days 1–26 as historical lessons. The objective is accurate, intelligible simple sentences before stylistic fluency. Daily schedule: grammar and foundations 20m; natural chunks 15m (noticing 5, story 5, recall 3, recovery 2); intensive substitutions 30m (lexical 10, grammatical 10, mixed 10); speaking 15m (everyday 5, scenario 8, correction/retry 2); writing 10m. Retain the scenario rotation, English-only explanations, existing chunk counts and hidden answers. Every substitution series has 4–6 cumulative cues, with grammatical intermediate sentences. Include tense, questions, negatives, auxiliaries and agreement, using simple vocabulary. In each 10-minute drill, repeat the series aloud, hide answers, then produce an original variation. Correct actual errors and retry; prioritize grammar over idiomatic sophistication. Keep AI and solo routes. Future focus drills must mix lexical and grammatical changes; the shared renderer supplies a dedicated grammatical series. Do not require speed or invented performance.
+
 ## Purpose and positioning
 
 Complete English is a free public learning **experiment**, not a certified course or proven learning method. The author is a software engineer, not an English teacher. Exercises aim to help learners who can understand English but need practice retrieving, connecting and using expressions spontaneously.
