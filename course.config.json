@@ -107,5 +107,25 @@
       "phrasal verbs",
       "contextual expressions"
     ]
+  },
+  "production_curriculum": {
+    "from_day": 27,
+    "daily_minutes": {
+      "foundations": 20,
+      "chunks": 15,
+      "substitutions": 30,
+      "speaking": 15,
+      "writing": 10
+    },
+    "substitution_minutes": {
+      "lexical": 10,
+      "grammatical": 10,
+      "mixed": 10
+    },
+    "speaking_minutes": {
+      "small_talk": 5,
+      "scenario": 8,
+      "correction_retry": 2
+    }
   }
 }
