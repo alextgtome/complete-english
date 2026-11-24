@@ -79,9 +79,9 @@ const firstSeenById = new Map();
 const registeredPhrases = new Map();
 for (const [id, chunk] of Object.entries(data.G)) {
   if (!truthyText(id) || !chunk || !truthyText(chunk.phrase) ||
-      !truthyText(chunk.pt) || !truthyText(chunk.when) || !truthyText(chunk.ex) ||
+      !(truthyText(chunk.meaning) || truthyText(chunk.pt)) || !(truthyText(chunk.when) || truthyText(chunk.everyday)) || !truthyText(chunk.ex) ||
       !Number.isInteger(chunk.d)) {
-    fail('Chunk ' + id + ' is missing first-use day, English expression, PT-BR translation, Quando usar, or example');
+    fail('Chunk ' + id + ' is missing first-use day, English expression, meaning, usage context, or example');
     continue;
   }
   const key = canonical(chunk.phrase);
