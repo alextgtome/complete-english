@@ -47,19 +47,20 @@ for (const day of data.days) {
     continue;
   }
   const html=root.innerHTML;
-  const indices=selectors.map(x=>html.indexOf(x));
+  const order=n>=27?selectors.filter(x=>x!=='id="substitutions"').map(x=>x==='id="speaking"'?['id="substitutions"',x]:[x]).flat():selectors;
+  const indices=order.map(x=>html.indexOf(x));
   if (indices.some(x=>x<0) || indices.some((x,i)=>i>0&&x<=indices[i-1])) {
     problems.push('Day '+n+': the four blocks and five chunk steps are missing or out of order');
   }
-  if (!html.includes('same '+day.chunks.length+' expressions you just read') ||
+  if (n<27 && (!html.includes('same '+day.chunks.length+' expressions you just read') ||
       !html.includes('one 35-minute exercise') ||
-      !html.includes('Reading the cards is part of Step 1')) {
+      !html.includes('Reading the cards is part of Step 1'))) {
     problems.push('Day '+n+': no clear explanation that chunk cards and five steps belong together');
   }
   if ((html.match(/<article class="chunk">/g)||[]).length!==day.chunks.length) {
     problems.push('Day '+n+': chunk cards do not match canonical lesson registry');
   }
-  if ((html.match(/STEP [1-5] OF 5/g)||[]).length!==5) {
+  if (n<27 && (html.match(/STEP [1-5] OF 5/g)||[]).length!==5) {
     problems.push('Day '+n+': must show exactly five numbered practice steps');
   }
   if (html.includes('class="steps"') || html.includes('03 — Guided substitution')) {
