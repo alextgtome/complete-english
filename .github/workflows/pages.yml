@@ -4,7 +4,7 @@ on:
     branches: [develop]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   actions: read
   pages: write
   id-token: write
@@ -13,13 +13,20 @@ concurrency:
   cancel-in-progress: false
 jobs:
   validate:
-    name: Validate course content
+    name: Validate and ingest course content
+    outputs:
+      revision: ${{ steps.revision.outputs.sha }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: develop
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Ingest pending lessons
+        run: |
+          if [ -d incoming ]; then node scripts/ingest-lessons.mjs; fi
       - name: Check shared JavaScript syntax
         run: node --check assets/app.js
       - name: Verify all lesson pages keep chunk activities together
@@ -30,6 +37,17 @@ jobs:
         run: node scripts/build-lesson-catalog.mjs --check
       - name: Validate lesson registry and drills
         run: node scripts/validate-lessons.mjs
+      - name: Commit validated lesson files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data lessons
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish validated pending lessons"
+            git push origin HEAD:develop
+          fi
+      - id: revision
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
   publish:
     needs: validate
     environment:
@@ -38,6 +56,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.validate.outputs.revision }}
       - uses: actions/configure-pages@v5
         with:
           enablement: true
