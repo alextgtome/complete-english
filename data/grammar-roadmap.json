@@ -1,0 +1,2403 @@
+{
+  "from_day": 29,
+  "to_day": 150,
+  "review_offsets": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "levels": [
+    "Recognition",
+    "Guided construction",
+    "Sentence transformation",
+    "Independent construction",
+    "Spontaneous production",
+    "Mixed grammatical production"
+  ],
+  "days": {
+    "29": {
+      "topic": "Subject and verb",
+      "stage": "Fundamentals",
+      "week": 1,
+      "level": 1,
+      "dependencies": [],
+      "review": [],
+      "checkpoint": false,
+      "independent_sentences": 2,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "30": {
+      "topic": "Objects and complements",
+      "stage": "Fundamentals",
+      "week": 1,
+      "level": 1,
+      "dependencies": [
+        29
+      ],
+      "review": [
+        29
+      ],
+      "checkpoint": false,
+      "independent_sentences": 2,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "31": {
+      "topic": "Personal pronouns",
+      "stage": "Fundamentals",
+      "week": 1,
+      "level": 1,
+      "dependencies": [
+        30
+      ],
+      "review": [
+        30
+      ],
+      "checkpoint": false,
+      "independent_sentences": 2,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "32": {
+      "topic": "Basic word order",
+      "stage": "Fundamentals",
+      "week": 1,
+      "level": 1,
+      "dependencies": [
+        31
+      ],
+      "review": [
+        31,
+        29
+      ],
+      "checkpoint": false,
+      "independent_sentences": 2,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "33": {
+      "topic": "Nouns and adjectives",
+      "stage": "Fundamentals",
+      "week": 1,
+      "level": 1,
+      "dependencies": [
+        32
+      ],
+      "review": [
+        32,
+        30
+      ],
+      "checkpoint": false,
+      "independent_sentences": 2,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "34": {
+      "topic": "Adverbs and prepositions",
+      "stage": "Fundamentals",
+      "week": 1,
+      "level": 1,
+      "dependencies": [
+        33
+      ],
+      "review": [
+        33,
+        31
+      ],
+      "checkpoint": false,
+      "independent_sentences": 2,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "35": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Fundamentals",
+      "week": 1,
+      "level": 1,
+      "dependencies": [
+        34
+      ],
+      "review": [
+        34,
+        32
+      ],
+      "checkpoint": true,
+      "independent_sentences": 2,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "36": {
+      "topic": "Base and past verb forms",
+      "stage": "Fundamentals",
+      "week": 2,
+      "level": 1,
+      "dependencies": [
+        35
+      ],
+      "review": [
+        35,
+        33,
+        29
+      ],
+      "checkpoint": false,
+      "independent_sentences": 3,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "37": {
+      "topic": "Past participle and -ing",
+      "stage": "Fundamentals",
+      "week": 2,
+      "level": 1,
+      "dependencies": [
+        36
+      ],
+      "review": [
+        36,
+        34,
+        30
+      ],
+      "checkpoint": false,
+      "independent_sentences": 3,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "38": {
+      "topic": "Regular and irregular verbs",
+      "stage": "Fundamentals",
+      "week": 2,
+      "level": 1,
+      "dependencies": [
+        37
+      ],
+      "review": [
+        37,
+        35,
+        31
+      ],
+      "checkpoint": false,
+      "independent_sentences": 3,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "39": {
+      "topic": "Subject-verb agreement",
+      "stage": "Fundamentals",
+      "week": 2,
+      "level": 1,
+      "dependencies": [
+        38
+      ],
+      "review": [
+        38,
+        36,
+        32
+      ],
+      "checkpoint": false,
+      "independent_sentences": 3,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "40": {
+      "topic": "Main and auxiliary verbs",
+      "stage": "Fundamentals",
+      "week": 2,
+      "level": 1,
+      "dependencies": [
+        39
+      ],
+      "review": [
+        39,
+        37,
+        33
+      ],
+      "checkpoint": false,
+      "independent_sentences": 3,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "41": {
+      "topic": "Be: am/is/are/was/were",
+      "stage": "Fundamentals",
+      "week": 2,
+      "level": 1,
+      "dependencies": [
+        40
+      ],
+      "review": [
+        40,
+        38,
+        34
+      ],
+      "checkpoint": false,
+      "independent_sentences": 3,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "42": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Fundamentals",
+      "week": 2,
+      "level": 1,
+      "dependencies": [
+        41
+      ],
+      "review": [
+        41,
+        39,
+        35
+      ],
+      "checkpoint": true,
+      "independent_sentences": 3,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "43": {
+      "topic": "Simple present",
+      "stage": "Essential construction",
+      "week": 3,
+      "level": 1,
+      "dependencies": [
+        42
+      ],
+      "review": [
+        42,
+        40,
+        36,
+        29
+      ],
+      "checkpoint": false,
+      "independent_sentences": 4,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "44": {
+      "topic": "Do and does",
+      "stage": "Essential construction",
+      "week": 3,
+      "level": 1,
+      "dependencies": [
+        43
+      ],
+      "review": [
+        43,
+        41,
+        37,
+        30
+      ],
+      "checkpoint": false,
+      "independent_sentences": 4,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "45": {
+      "topic": "Present negatives",
+      "stage": "Essential construction",
+      "week": 3,
+      "level": 1,
+      "dependencies": [
+        44
+      ],
+      "review": [
+        44,
+        42,
+        38,
+        31
+      ],
+      "checkpoint": false,
+      "independent_sentences": 4,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "46": {
+      "topic": "Present questions",
+      "stage": "Essential construction",
+      "week": 3,
+      "level": 1,
+      "dependencies": [
+        45
+      ],
+      "review": [
+        45,
+        43,
+        39,
+        32
+      ],
+      "checkpoint": false,
+      "independent_sentences": 4,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "47": {
+      "topic": "WH questions",
+      "stage": "Essential construction",
+      "week": 3,
+      "level": 1,
+      "dependencies": [
+        46
+      ],
+      "review": [
+        46,
+        44,
+        40,
+        33
+      ],
+      "checkpoint": false,
+      "independent_sentences": 4,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "48": {
+      "topic": "Simple past",
+      "stage": "Essential construction",
+      "week": 3,
+      "level": 1,
+      "dependencies": [
+        47
+      ],
+      "review": [
+        47,
+        45,
+        41,
+        34
+      ],
+      "checkpoint": false,
+      "independent_sentences": 4,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "49": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Essential construction",
+      "week": 3,
+      "level": 1,
+      "dependencies": [
+        48
+      ],
+      "review": [
+        48,
+        46,
+        42,
+        35
+      ],
+      "checkpoint": true,
+      "independent_sentences": 4,
+      "hint_policy": "formula and cues",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "50": {
+      "topic": "Did and base verb",
+      "stage": "Essential construction",
+      "week": 4,
+      "level": 2,
+      "dependencies": [
+        49
+      ],
+      "review": [
+        49,
+        47,
+        43,
+        36
+      ],
+      "checkpoint": false,
+      "independent_sentences": 5,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "51": {
+      "topic": "Past negatives",
+      "stage": "Essential construction",
+      "week": 4,
+      "level": 2,
+      "dependencies": [
+        50
+      ],
+      "review": [
+        50,
+        48,
+        44,
+        37
+      ],
+      "checkpoint": false,
+      "independent_sentences": 5,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "52": {
+      "topic": "Past questions",
+      "stage": "Essential construction",
+      "week": 4,
+      "level": 2,
+      "dependencies": [
+        51
+      ],
+      "review": [
+        51,
+        49,
+        45,
+        38
+      ],
+      "checkpoint": false,
+      "independent_sentences": 5,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "53": {
+      "topic": "Will",
+      "stage": "Essential construction",
+      "week": 4,
+      "level": 2,
+      "dependencies": [
+        52
+      ],
+      "review": [
+        52,
+        50,
+        46,
+        39
+      ],
+      "checkpoint": false,
+      "independent_sentences": 5,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "54": {
+      "topic": "Going to",
+      "stage": "Essential construction",
+      "week": 4,
+      "level": 2,
+      "dependencies": [
+        53
+      ],
+      "review": [
+        53,
+        51,
+        47,
+        40
+      ],
+      "checkpoint": false,
+      "independent_sentences": 5,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "55": {
+      "topic": "Future contrasts",
+      "stage": "Essential construction",
+      "week": 4,
+      "level": 2,
+      "dependencies": [
+        54
+      ],
+      "review": [
+        54,
+        52,
+        48,
+        41
+      ],
+      "checkpoint": false,
+      "independent_sentences": 5,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "56": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Essential construction",
+      "week": 4,
+      "level": 2,
+      "dependencies": [
+        55
+      ],
+      "review": [
+        55,
+        53,
+        49,
+        42
+      ],
+      "checkpoint": true,
+      "independent_sentences": 5,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "57": {
+      "topic": "Mixed present and past",
+      "stage": "Essential construction",
+      "week": 5,
+      "level": 2,
+      "dependencies": [
+        56
+      ],
+      "review": [
+        56,
+        54,
+        50,
+        43
+      ],
+      "checkpoint": false,
+      "independent_sentences": 6,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "58": {
+      "topic": "Be versus do",
+      "stage": "Essential construction",
+      "week": 5,
+      "level": 2,
+      "dependencies": [
+        57
+      ],
+      "review": [
+        57,
+        55,
+        51,
+        44
+      ],
+      "checkpoint": false,
+      "independent_sentences": 6,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "59": {
+      "topic": "Subject changes",
+      "stage": "Essential construction",
+      "week": 5,
+      "level": 2,
+      "dependencies": [
+        58
+      ],
+      "review": [
+        58,
+        56,
+        52,
+        45,
+        29
+      ],
+      "checkpoint": false,
+      "independent_sentences": 6,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "60": {
+      "topic": "Question word order",
+      "stage": "Essential construction",
+      "week": 5,
+      "level": 2,
+      "dependencies": [
+        59
+      ],
+      "review": [
+        59,
+        57,
+        53,
+        46,
+        30
+      ],
+      "checkpoint": false,
+      "independent_sentences": 6,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "61": {
+      "topic": "Future questions and negatives",
+      "stage": "Essential construction",
+      "week": 5,
+      "level": 2,
+      "dependencies": [
+        60
+      ],
+      "review": [
+        60,
+        58,
+        54,
+        47,
+        31
+      ],
+      "checkpoint": false,
+      "independent_sentences": 6,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "62": {
+      "topic": "Independent everyday construction",
+      "stage": "Essential construction",
+      "week": 5,
+      "level": 2,
+      "dependencies": [
+        61
+      ],
+      "review": [
+        61,
+        59,
+        55,
+        48,
+        32
+      ],
+      "checkpoint": false,
+      "independent_sentences": 6,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "63": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Essential construction",
+      "week": 5,
+      "level": 2,
+      "dependencies": [
+        62
+      ],
+      "review": [
+        62,
+        60,
+        56,
+        49,
+        33
+      ],
+      "checkpoint": true,
+      "independent_sentences": 6,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "64": {
+      "topic": "Present continuous",
+      "stage": "Continuous forms",
+      "week": 6,
+      "level": 2,
+      "dependencies": [
+        63
+      ],
+      "review": [
+        63,
+        61,
+        57,
+        50,
+        34
+      ],
+      "checkpoint": false,
+      "independent_sentences": 7,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "65": {
+      "topic": "Present simple versus continuous",
+      "stage": "Continuous forms",
+      "week": 6,
+      "level": 2,
+      "dependencies": [
+        64
+      ],
+      "review": [
+        64,
+        62,
+        58,
+        51,
+        35
+      ],
+      "checkpoint": false,
+      "independent_sentences": 7,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "66": {
+      "topic": "Continuous negatives and questions",
+      "stage": "Continuous forms",
+      "week": 6,
+      "level": 2,
+      "dependencies": [
+        65
+      ],
+      "review": [
+        65,
+        63,
+        59,
+        52,
+        36
+      ],
+      "checkpoint": false,
+      "independent_sentences": 7,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "67": {
+      "topic": "Past continuous",
+      "stage": "Continuous forms",
+      "week": 6,
+      "level": 2,
+      "dependencies": [
+        66
+      ],
+      "review": [
+        66,
+        64,
+        60,
+        53,
+        37
+      ],
+      "checkpoint": false,
+      "independent_sentences": 7,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "68": {
+      "topic": "Past simple versus continuous",
+      "stage": "Continuous forms",
+      "week": 6,
+      "level": 2,
+      "dependencies": [
+        67
+      ],
+      "review": [
+        67,
+        65,
+        61,
+        54,
+        38
+      ],
+      "checkpoint": false,
+      "independent_sentences": 7,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "69": {
+      "topic": "Interrupted actions",
+      "stage": "Continuous forms",
+      "week": 6,
+      "level": 2,
+      "dependencies": [
+        68
+      ],
+      "review": [
+        68,
+        66,
+        62,
+        55,
+        39
+      ],
+      "checkpoint": false,
+      "independent_sentences": 7,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "70": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Continuous forms",
+      "week": 6,
+      "level": 2,
+      "dependencies": [
+        69
+      ],
+      "review": [
+        69,
+        67,
+        63,
+        56,
+        40
+      ],
+      "checkpoint": true,
+      "independent_sentences": 7,
+      "hint_policy": "formula only after attempt",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "71": {
+      "topic": "Future continuous",
+      "stage": "Continuous forms",
+      "week": 7,
+      "level": 3,
+      "dependencies": [
+        70
+      ],
+      "review": [
+        70,
+        68,
+        64,
+        57,
+        41
+      ],
+      "checkpoint": false,
+      "independent_sentences": 8,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "72": {
+      "topic": "Future simple versus continuous",
+      "stage": "Continuous forms",
+      "week": 7,
+      "level": 3,
+      "dependencies": [
+        71
+      ],
+      "review": [
+        71,
+        69,
+        65,
+        58,
+        42
+      ],
+      "checkpoint": false,
+      "independent_sentences": 8,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "73": {
+      "topic": "Stative verbs",
+      "stage": "Continuous forms",
+      "week": 7,
+      "level": 3,
+      "dependencies": [
+        72
+      ],
+      "review": [
+        72,
+        70,
+        66,
+        59,
+        43
+      ],
+      "checkpoint": false,
+      "independent_sentences": 8,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "74": {
+      "topic": "Mixed continuous questions",
+      "stage": "Continuous forms",
+      "week": 7,
+      "level": 3,
+      "dependencies": [
+        73
+      ],
+      "review": [
+        73,
+        71,
+        67,
+        60,
+        44
+      ],
+      "checkpoint": false,
+      "independent_sentences": 8,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "75": {
+      "topic": "Time markers",
+      "stage": "Continuous forms",
+      "week": 7,
+      "level": 3,
+      "dependencies": [
+        74
+      ],
+      "review": [
+        74,
+        72,
+        68,
+        61,
+        45
+      ],
+      "checkpoint": false,
+      "independent_sentences": 8,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "76": {
+      "topic": "Independent narration",
+      "stage": "Continuous forms",
+      "week": 7,
+      "level": 3,
+      "dependencies": [
+        75
+      ],
+      "review": [
+        75,
+        73,
+        69,
+        62,
+        46
+      ],
+      "checkpoint": false,
+      "independent_sentences": 8,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "77": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Continuous forms",
+      "week": 7,
+      "level": 3,
+      "dependencies": [
+        76
+      ],
+      "review": [
+        76,
+        74,
+        70,
+        63,
+        47
+      ],
+      "checkpoint": true,
+      "independent_sentences": 8,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "78": {
+      "topic": "Present perfect",
+      "stage": "Perfect forms",
+      "week": 8,
+      "level": 3,
+      "dependencies": [
+        77
+      ],
+      "review": [
+        77,
+        75,
+        71,
+        64,
+        48
+      ],
+      "checkpoint": false,
+      "independent_sentences": 9,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "79": {
+      "topic": "Have and has",
+      "stage": "Perfect forms",
+      "week": 8,
+      "level": 3,
+      "dependencies": [
+        78
+      ],
+      "review": [
+        78,
+        76,
+        72,
+        65,
+        49
+      ],
+      "checkpoint": false,
+      "independent_sentences": 9,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "80": {
+      "topic": "Past participles",
+      "stage": "Perfect forms",
+      "week": 8,
+      "level": 3,
+      "dependencies": [
+        79
+      ],
+      "review": [
+        79,
+        77,
+        73,
+        66,
+        50
+      ],
+      "checkpoint": false,
+      "independent_sentences": 9,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "81": {
+      "topic": "Present perfect questions and negatives",
+      "stage": "Perfect forms",
+      "week": 8,
+      "level": 3,
+      "dependencies": [
+        80
+      ],
+      "review": [
+        80,
+        78,
+        74,
+        67,
+        51
+      ],
+      "checkpoint": false,
+      "independent_sentences": 9,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "82": {
+      "topic": "Since and for",
+      "stage": "Perfect forms",
+      "week": 8,
+      "level": 3,
+      "dependencies": [
+        81
+      ],
+      "review": [
+        81,
+        79,
+        75,
+        68,
+        52
+      ],
+      "checkpoint": false,
+      "independent_sentences": 9,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "83": {
+      "topic": "Simple past versus present perfect",
+      "stage": "Perfect forms",
+      "week": 8,
+      "level": 3,
+      "dependencies": [
+        82
+      ],
+      "review": [
+        82,
+        80,
+        76,
+        69,
+        53
+      ],
+      "checkpoint": false,
+      "independent_sentences": 9,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "84": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Perfect forms",
+      "week": 8,
+      "level": 3,
+      "dependencies": [
+        83
+      ],
+      "review": [
+        83,
+        81,
+        77,
+        70,
+        54
+      ],
+      "checkpoint": true,
+      "independent_sentences": 9,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "85": {
+      "topic": "Present perfect continuous",
+      "stage": "Perfect forms",
+      "week": 9,
+      "level": 3,
+      "dependencies": [
+        84
+      ],
+      "review": [
+        84,
+        82,
+        78,
+        71,
+        55
+      ],
+      "checkpoint": false,
+      "independent_sentences": 10,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "86": {
+      "topic": "Perfect simple versus continuous",
+      "stage": "Perfect forms",
+      "week": 9,
+      "level": 3,
+      "dependencies": [
+        85
+      ],
+      "review": [
+        85,
+        83,
+        79,
+        72,
+        56
+      ],
+      "checkpoint": false,
+      "independent_sentences": 10,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "87": {
+      "topic": "Past perfect",
+      "stage": "Perfect forms",
+      "week": 9,
+      "level": 3,
+      "dependencies": [
+        86
+      ],
+      "review": [
+        86,
+        84,
+        80,
+        73,
+        57
+      ],
+      "checkpoint": false,
+      "independent_sentences": 10,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "88": {
+      "topic": "Past perfect versus simple past",
+      "stage": "Perfect forms",
+      "week": 9,
+      "level": 3,
+      "dependencies": [
+        87
+      ],
+      "review": [
+        87,
+        85,
+        81,
+        74,
+        58
+      ],
+      "checkpoint": false,
+      "independent_sentences": 10,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "89": {
+      "topic": "Past perfect continuous",
+      "stage": "Perfect forms",
+      "week": 9,
+      "level": 3,
+      "dependencies": [
+        88
+      ],
+      "review": [
+        88,
+        86,
+        82,
+        75,
+        59
+      ],
+      "checkpoint": false,
+      "independent_sentences": 10,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "90": {
+      "topic": "Narrative sequence",
+      "stage": "Perfect forms",
+      "week": 9,
+      "level": 3,
+      "dependencies": [
+        89
+      ],
+      "review": [
+        89,
+        87,
+        83,
+        76,
+        60
+      ],
+      "checkpoint": false,
+      "independent_sentences": 10,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "91": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Perfect forms",
+      "week": 9,
+      "level": 3,
+      "dependencies": [
+        90
+      ],
+      "review": [
+        90,
+        88,
+        84,
+        77,
+        61
+      ],
+      "checkpoint": true,
+      "independent_sentences": 10,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "92": {
+      "topic": "Future perfect",
+      "stage": "Perfect forms",
+      "week": 10,
+      "level": 4,
+      "dependencies": [
+        91
+      ],
+      "review": [
+        91,
+        89,
+        85,
+        78,
+        62
+      ],
+      "checkpoint": false,
+      "independent_sentences": 11,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "93": {
+      "topic": "Future perfect continuous",
+      "stage": "Perfect forms",
+      "week": 10,
+      "level": 4,
+      "dependencies": [
+        92
+      ],
+      "review": [
+        92,
+        90,
+        86,
+        79,
+        63
+      ],
+      "checkpoint": false,
+      "independent_sentences": 11,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "94": {
+      "topic": "Future perfect contrasts",
+      "stage": "Perfect forms",
+      "week": 10,
+      "level": 4,
+      "dependencies": [
+        93
+      ],
+      "review": [
+        93,
+        91,
+        87,
+        80,
+        64
+      ],
+      "checkpoint": false,
+      "independent_sentences": 11,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "95": {
+      "topic": "Mixed perfect forms",
+      "stage": "Perfect forms",
+      "week": 10,
+      "level": 4,
+      "dependencies": [
+        94
+      ],
+      "review": [
+        94,
+        92,
+        88,
+        81,
+        65
+      ],
+      "checkpoint": false,
+      "independent_sentences": 11,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "96": {
+      "topic": "Everyday perfect forms",
+      "stage": "Perfect forms",
+      "week": 10,
+      "level": 4,
+      "dependencies": [
+        95
+      ],
+      "review": [
+        95,
+        93,
+        89,
+        82,
+        66
+      ],
+      "checkpoint": false,
+      "independent_sentences": 11,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "97": {
+      "topic": "Independent timeline explanation",
+      "stage": "Perfect forms",
+      "week": 10,
+      "level": 4,
+      "dependencies": [
+        96
+      ],
+      "review": [
+        96,
+        94,
+        90,
+        83,
+        67
+      ],
+      "checkpoint": false,
+      "independent_sentences": 11,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "98": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Perfect forms",
+      "week": 10,
+      "level": 4,
+      "dependencies": [
+        97
+      ],
+      "review": [
+        97,
+        95,
+        91,
+        84,
+        68
+      ],
+      "checkpoint": true,
+      "independent_sentences": 11,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "99": {
+      "topic": "Can and could",
+      "stage": "Additional structures",
+      "week": 11,
+      "level": 4,
+      "dependencies": [
+        98
+      ],
+      "review": [
+        98,
+        96,
+        92,
+        85,
+        69
+      ],
+      "checkpoint": false,
+      "independent_sentences": 12,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "100": {
+      "topic": "Must and have to",
+      "stage": "Additional structures",
+      "week": 11,
+      "level": 4,
+      "dependencies": [
+        99
+      ],
+      "review": [
+        99,
+        97,
+        93,
+        86,
+        70
+      ],
+      "checkpoint": false,
+      "independent_sentences": 12,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "101": {
+      "topic": "Should and might",
+      "stage": "Additional structures",
+      "week": 11,
+      "level": 4,
+      "dependencies": [
+        100
+      ],
+      "review": [
+        100,
+        98,
+        94,
+        87,
+        71
+      ],
+      "checkpoint": false,
+      "independent_sentences": 12,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "102": {
+      "topic": "Modal questions and negatives",
+      "stage": "Additional structures",
+      "week": 11,
+      "level": 4,
+      "dependencies": [
+        101
+      ],
+      "review": [
+        101,
+        99,
+        95,
+        88,
+        72
+      ],
+      "checkpoint": false,
+      "independent_sentences": 12,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "103": {
+      "topic": "Active and passive voice",
+      "stage": "Additional structures",
+      "week": 11,
+      "level": 4,
+      "dependencies": [
+        102
+      ],
+      "review": [
+        102,
+        100,
+        96,
+        89,
+        73
+      ],
+      "checkpoint": false,
+      "independent_sentences": 12,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "104": {
+      "topic": "Passive across tenses",
+      "stage": "Additional structures",
+      "week": 11,
+      "level": 4,
+      "dependencies": [
+        103
+      ],
+      "review": [
+        103,
+        101,
+        97,
+        90,
+        74
+      ],
+      "checkpoint": false,
+      "independent_sentences": 12,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "105": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Additional structures",
+      "week": 11,
+      "level": 4,
+      "dependencies": [
+        104
+      ],
+      "review": [
+        104,
+        102,
+        98,
+        91,
+        75
+      ],
+      "checkpoint": true,
+      "independent_sentences": 12,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "106": {
+      "topic": "Zero conditional",
+      "stage": "Additional structures",
+      "week": 12,
+      "level": 4,
+      "dependencies": [
+        105
+      ],
+      "review": [
+        105,
+        103,
+        99,
+        92,
+        76
+      ],
+      "checkpoint": false,
+      "independent_sentences": 13,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "107": {
+      "topic": "First conditional",
+      "stage": "Additional structures",
+      "week": 12,
+      "level": 4,
+      "dependencies": [
+        106
+      ],
+      "review": [
+        106,
+        104,
+        100,
+        93,
+        77
+      ],
+      "checkpoint": false,
+      "independent_sentences": 13,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "108": {
+      "topic": "Second conditional",
+      "stage": "Additional structures",
+      "week": 12,
+      "level": 4,
+      "dependencies": [
+        107
+      ],
+      "review": [
+        107,
+        105,
+        101,
+        94,
+        78
+      ],
+      "checkpoint": false,
+      "independent_sentences": 13,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "109": {
+      "topic": "Third conditional",
+      "stage": "Additional structures",
+      "week": 12,
+      "level": 4,
+      "dependencies": [
+        108
+      ],
+      "review": [
+        108,
+        106,
+        102,
+        95,
+        79
+      ],
+      "checkpoint": false,
+      "independent_sentences": 13,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "110": {
+      "topic": "Conditional contrasts",
+      "stage": "Additional structures",
+      "week": 12,
+      "level": 4,
+      "dependencies": [
+        109
+      ],
+      "review": [
+        109,
+        107,
+        103,
+        96,
+        80
+      ],
+      "checkpoint": false,
+      "independent_sentences": 13,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "111": {
+      "topic": "Articles",
+      "stage": "Additional structures",
+      "week": 12,
+      "level": 4,
+      "dependencies": [
+        110
+      ],
+      "review": [
+        110,
+        108,
+        104,
+        97,
+        81
+      ],
+      "checkpoint": false,
+      "independent_sentences": 13,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "112": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Additional structures",
+      "week": 12,
+      "level": 4,
+      "dependencies": [
+        111
+      ],
+      "review": [
+        111,
+        109,
+        105,
+        98,
+        82
+      ],
+      "checkpoint": true,
+      "independent_sentences": 13,
+      "hint_policy": "context first; optional rescue hint",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "113": {
+      "topic": "Prepositions of time",
+      "stage": "Additional structures",
+      "week": 13,
+      "level": 5,
+      "dependencies": [
+        112
+      ],
+      "review": [
+        112,
+        110,
+        106,
+        99,
+        83
+      ],
+      "checkpoint": false,
+      "independent_sentences": 14,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "114": {
+      "topic": "Prepositions of place",
+      "stage": "Additional structures",
+      "week": 13,
+      "level": 5,
+      "dependencies": [
+        113
+      ],
+      "review": [
+        113,
+        111,
+        107,
+        100,
+        84
+      ],
+      "checkpoint": false,
+      "independent_sentences": 14,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "115": {
+      "topic": "Dependent prepositions",
+      "stage": "Additional structures",
+      "week": 13,
+      "level": 5,
+      "dependencies": [
+        114
+      ],
+      "review": [
+        114,
+        112,
+        108,
+        101,
+        85
+      ],
+      "checkpoint": false,
+      "independent_sentences": 14,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "116": {
+      "topic": "Gerunds",
+      "stage": "Additional structures",
+      "week": 13,
+      "level": 5,
+      "dependencies": [
+        115
+      ],
+      "review": [
+        115,
+        113,
+        109,
+        102,
+        86
+      ],
+      "checkpoint": false,
+      "independent_sentences": 14,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "117": {
+      "topic": "Infinitives",
+      "stage": "Additional structures",
+      "week": 13,
+      "level": 5,
+      "dependencies": [
+        116
+      ],
+      "review": [
+        116,
+        114,
+        110,
+        103,
+        87
+      ],
+      "checkpoint": false,
+      "independent_sentences": 14,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "118": {
+      "topic": "Gerund versus infinitive",
+      "stage": "Additional structures",
+      "week": 13,
+      "level": 5,
+      "dependencies": [
+        117
+      ],
+      "review": [
+        117,
+        115,
+        111,
+        104,
+        88
+      ],
+      "checkpoint": false,
+      "independent_sentences": 14,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "119": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Additional structures",
+      "week": 13,
+      "level": 5,
+      "dependencies": [
+        118
+      ],
+      "review": [
+        118,
+        116,
+        112,
+        105,
+        89
+      ],
+      "checkpoint": true,
+      "independent_sentences": 14,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "120": {
+      "topic": "Conjunctions",
+      "stage": "Additional structures",
+      "week": 14,
+      "level": 5,
+      "dependencies": [
+        119
+      ],
+      "review": [
+        119,
+        117,
+        113,
+        106,
+        90
+      ],
+      "checkpoint": false,
+      "independent_sentences": 15,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "121": {
+      "topic": "Cause and result connectors",
+      "stage": "Additional structures",
+      "week": 14,
+      "level": 5,
+      "dependencies": [
+        120
+      ],
+      "review": [
+        120,
+        118,
+        114,
+        107,
+        91
+      ],
+      "checkpoint": false,
+      "independent_sentences": 15,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "122": {
+      "topic": "Contrast connectors",
+      "stage": "Additional structures",
+      "week": 14,
+      "level": 5,
+      "dependencies": [
+        121
+      ],
+      "review": [
+        121,
+        119,
+        115,
+        108,
+        92
+      ],
+      "checkpoint": false,
+      "independent_sentences": 15,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "123": {
+      "topic": "Relative clauses",
+      "stage": "Additional structures",
+      "week": 14,
+      "level": 5,
+      "dependencies": [
+        122
+      ],
+      "review": [
+        122,
+        120,
+        116,
+        109,
+        93
+      ],
+      "checkpoint": false,
+      "independent_sentences": 15,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "124": {
+      "topic": "Defining versus non-defining clauses",
+      "stage": "Additional structures",
+      "week": 14,
+      "level": 5,
+      "dependencies": [
+        123
+      ],
+      "review": [
+        123,
+        121,
+        117,
+        110,
+        94
+      ],
+      "checkpoint": false,
+      "independent_sentences": 15,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "125": {
+      "topic": "Connected explanations",
+      "stage": "Additional structures",
+      "week": 14,
+      "level": 5,
+      "dependencies": [
+        124
+      ],
+      "review": [
+        124,
+        122,
+        118,
+        111,
+        95
+      ],
+      "checkpoint": false,
+      "independent_sentences": 15,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "126": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Additional structures",
+      "week": 14,
+      "level": 5,
+      "dependencies": [
+        125
+      ],
+      "review": [
+        125,
+        123,
+        119,
+        112,
+        96
+      ],
+      "checkpoint": true,
+      "independent_sentences": 15,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "127": {
+      "topic": "Mixed present forms",
+      "stage": "Consolidation",
+      "week": 15,
+      "level": 5,
+      "dependencies": [
+        126
+      ],
+      "review": [
+        126,
+        124,
+        120,
+        113,
+        97
+      ],
+      "checkpoint": false,
+      "independent_sentences": 16,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "128": {
+      "topic": "Mixed past forms",
+      "stage": "Consolidation",
+      "week": 15,
+      "level": 5,
+      "dependencies": [
+        127
+      ],
+      "review": [
+        127,
+        125,
+        121,
+        114,
+        98
+      ],
+      "checkpoint": false,
+      "independent_sentences": 16,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "129": {
+      "topic": "Mixed future forms",
+      "stage": "Consolidation",
+      "week": 15,
+      "level": 5,
+      "dependencies": [
+        128
+      ],
+      "review": [
+        128,
+        126,
+        122,
+        115,
+        99
+      ],
+      "checkpoint": false,
+      "independent_sentences": 16,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "130": {
+      "topic": "Mixed perfect forms",
+      "stage": "Consolidation",
+      "week": 15,
+      "level": 5,
+      "dependencies": [
+        129
+      ],
+      "review": [
+        129,
+        127,
+        123,
+        116,
+        100
+      ],
+      "checkpoint": false,
+      "independent_sentences": 16,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "131": {
+      "topic": "Questions across tenses",
+      "stage": "Consolidation",
+      "week": 15,
+      "level": 5,
+      "dependencies": [
+        130
+      ],
+      "review": [
+        130,
+        128,
+        124,
+        117,
+        101
+      ],
+      "checkpoint": false,
+      "independent_sentences": 16,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "132": {
+      "topic": "Independent everyday conversation",
+      "stage": "Consolidation",
+      "week": 15,
+      "level": 5,
+      "dependencies": [
+        131
+      ],
+      "review": [
+        131,
+        129,
+        125,
+        118,
+        102
+      ],
+      "checkpoint": false,
+      "independent_sentences": 16,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "133": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Consolidation",
+      "week": 15,
+      "level": 5,
+      "dependencies": [
+        132
+      ],
+      "review": [
+        132,
+        130,
+        126,
+        119,
+        103
+      ],
+      "checkpoint": true,
+      "independent_sentences": 16,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "134": {
+      "topic": "Workplace explanations",
+      "stage": "Consolidation",
+      "week": 16,
+      "level": 6,
+      "dependencies": [
+        133
+      ],
+      "review": [
+        133,
+        131,
+        127,
+        120,
+        104
+      ],
+      "checkpoint": false,
+      "independent_sentences": 17,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "135": {
+      "topic": "Technical trade-offs",
+      "stage": "Consolidation",
+      "week": 16,
+      "level": 6,
+      "dependencies": [
+        134
+      ],
+      "review": [
+        134,
+        132,
+        128,
+        121,
+        105
+      ],
+      "checkpoint": false,
+      "independent_sentences": 17,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "136": {
+      "topic": "Behavioral storytelling",
+      "stage": "Consolidation",
+      "week": 16,
+      "level": 6,
+      "dependencies": [
+        135
+      ],
+      "review": [
+        135,
+        133,
+        129,
+        122,
+        106
+      ],
+      "checkpoint": false,
+      "independent_sentences": 17,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "137": {
+      "topic": "Unexpected follow-ups",
+      "stage": "Consolidation",
+      "week": 16,
+      "level": 6,
+      "dependencies": [
+        136
+      ],
+      "review": [
+        136,
+        134,
+        130,
+        123,
+        107
+      ],
+      "checkpoint": false,
+      "independent_sentences": 17,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "138": {
+      "topic": "Error identification",
+      "stage": "Consolidation",
+      "week": 16,
+      "level": 6,
+      "dependencies": [
+        137
+      ],
+      "review": [
+        137,
+        135,
+        131,
+        124,
+        108
+      ],
+      "checkpoint": false,
+      "independent_sentences": 17,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "139": {
+      "topic": "Rephrasing ideas",
+      "stage": "Consolidation",
+      "week": 16,
+      "level": 6,
+      "dependencies": [
+        138
+      ],
+      "review": [
+        138,
+        136,
+        132,
+        125,
+        109
+      ],
+      "checkpoint": false,
+      "independent_sentences": 17,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "140": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Consolidation",
+      "week": 16,
+      "level": 6,
+      "dependencies": [
+        139
+      ],
+      "review": [
+        139,
+        137,
+        133,
+        126,
+        110
+      ],
+      "checkpoint": true,
+      "independent_sentences": 17,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "141": {
+      "topic": "Mixed modal and conditional production",
+      "stage": "Consolidation",
+      "week": 17,
+      "level": 6,
+      "dependencies": [
+        140
+      ],
+      "review": [
+        140,
+        138,
+        134,
+        127,
+        111
+      ],
+      "checkpoint": false,
+      "independent_sentences": 18,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "142": {
+      "topic": "Passive and active explanations",
+      "stage": "Consolidation",
+      "week": 17,
+      "level": 6,
+      "dependencies": [
+        141
+      ],
+      "review": [
+        141,
+        139,
+        135,
+        128,
+        112
+      ],
+      "checkpoint": false,
+      "independent_sentences": 18,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "143": {
+      "topic": "Connected narratives",
+      "stage": "Consolidation",
+      "week": 17,
+      "level": 6,
+      "dependencies": [
+        142
+      ],
+      "review": [
+        142,
+        140,
+        136,
+        129,
+        113
+      ],
+      "checkpoint": false,
+      "independent_sentences": 18,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "144": {
+      "topic": "Unprepared everyday questions",
+      "stage": "Consolidation",
+      "week": 17,
+      "level": 6,
+      "dependencies": [
+        143
+      ],
+      "review": [
+        143,
+        141,
+        137,
+        130,
+        114
+      ],
+      "checkpoint": false,
+      "independent_sentences": 18,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "145": {
+      "topic": "Unprepared technical questions",
+      "stage": "Consolidation",
+      "week": 17,
+      "level": 6,
+      "dependencies": [
+        144
+      ],
+      "review": [
+        144,
+        142,
+        138,
+        131,
+        115
+      ],
+      "checkpoint": false,
+      "independent_sentences": 18,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "146": {
+      "topic": "Independent interview answers",
+      "stage": "Consolidation",
+      "week": 17,
+      "level": 6,
+      "dependencies": [
+        145
+      ],
+      "review": [
+        145,
+        143,
+        139,
+        132,
+        116
+      ],
+      "checkpoint": false,
+      "independent_sentences": 18,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "147": {
+      "topic": "Cumulative checkpoint",
+      "stage": "Consolidation",
+      "week": 17,
+      "level": 6,
+      "dependencies": [
+        146
+      ],
+      "review": [
+        146,
+        144,
+        140,
+        133,
+        117
+      ],
+      "checkpoint": true,
+      "independent_sentences": 18,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "148": {
+      "topic": "Independent story",
+      "stage": "Consolidation",
+      "week": 18,
+      "level": 6,
+      "dependencies": [
+        147
+      ],
+      "review": [
+        147,
+        145,
+        141,
+        134,
+        118
+      ],
+      "checkpoint": false,
+      "independent_sentences": 19,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "149": {
+      "topic": "Mixed spontaneous conversation",
+      "stage": "Consolidation",
+      "week": 18,
+      "level": 6,
+      "dependencies": [
+        148
+      ],
+      "review": [
+        148,
+        146,
+        142,
+        135,
+        119
+      ],
+      "checkpoint": false,
+      "independent_sentences": 19,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    },
+    "150": {
+      "topic": "Final independent production",
+      "stage": "Consolidation",
+      "week": 18,
+      "level": 6,
+      "dependencies": [
+        149
+      ],
+      "review": [
+        149,
+        147,
+        143,
+        136,
+        120
+      ],
+      "checkpoint": true,
+      "independent_sentences": 19,
+      "hint_policy": "no initial hints",
+      "final_task": "Independent contextual production using today's topic and earlier structures"
+    }
+  }
+}
