@@ -1,0 +1,125 @@
+{
+  "lesson": {
+    "day": 29,
+    "date": "2026-11-26",
+    "theme": "Subject and verb — explain responsibilities in an interview",
+    "micro": "grammar29",
+    "scenario_type": "interview",
+    "small": "A recruiter unexpectedly asks what you usually do on a rainy afternoon. Give a truthful short answer, one detail and optionally ask a question back. Then switch to breakfast, music and errands.",
+    "scenario": "Behavioral interview: describe a genuine responsibility or an explicitly fictional practice example. Explain who does each task, what you did and what the team does. The interviewer asks one question at a time and introduces a changed responsibility after your first answer. Do not invent achievements.",
+    "writing": "Write two original sentences about responsibilities: one about yourself and one about another person. Underline the complete subject and verb. Turn each into a negative and a question. Add a short sentence about yesterday without hints.",
+    "chunks": [
+      "ac1",
+      "ac2",
+      "ac3",
+      "ab1",
+      "z1",
+      "v2"
+    ],
+    "source": "Native interactive HTML lesson",
+    "note": "Fundamentals, level 1; reviews from Days 28, 26 and 22.",
+    "noticing": "I take care of the schedule. My colleague deals with requests. We work together on releases. I meant to check the report yesterday. I kept everyone informed about the delay. Let's narrow it down to two tasks.",
+    "story": "Describe who does two tasks in a real or fictional team. Use two target chunks and identify each subject and verb.",
+    "recovery": "If a word is missing, describe the action in simpler English and finish your sentence.",
+    "soloQuestions": [
+      "Who takes care of a task at home?",
+      "What does a colleague do in a fictional team?",
+      "What did you do when a plan changed?"
+    ],
+    "writingCheck": "I check reports. She checks requests. I do not check reports. She does not check requests. Do I check reports? Does she check requests? Yesterday I checked a report. These are examples, not required personal answers.",
+    "ambiguity": {
+      "sentence": "My colleague wears many hats, so she handles support and planning.",
+      "expression": "wears many hats",
+      "gist_question": "Does the colleague have one responsibility or several?",
+      "plain_english": "Has several different roles.",
+      "context_clue": "Support and planning name two different responsibilities; the exact number is unknown.",
+      "gist_answer": "She has several responsibilities."
+    }
+  },
+  "new_chunks": {
+    "ac1": {
+      "d": 29,
+      "phrase": "I take care of...",
+      "meaning": "I handle or look after something.",
+      "when": "Describe a responsibility.",
+      "everyday": "I take care of the garden.",
+      "tech": "I take care of release notes.",
+      "pattern": "subject + take/takes care of + noun",
+      "ex": "I take care of release notes.",
+      "trap": "Use takes with he, she or it in the simple present."
+    },
+    "ac2": {
+      "d": 29,
+      "phrase": "I deal with...",
+      "meaning": "I handle a situation or problem.",
+      "when": "Explain the tasks or problems you handle.",
+      "everyday": "I deal with household bills.",
+      "tech": "I deal with support requests.",
+      "pattern": "subject + deal/deals with + noun",
+      "ex": "I deal with support requests.",
+      "trap": "Keep with after deal in this meaning."
+    },
+    "ac3": {
+      "d": 29,
+      "phrase": "We work together on...",
+      "meaning": "We cooperate on a shared task.",
+      "when": "Describe collaboration.",
+      "everyday": "We work together on dinner preparations.",
+      "tech": "We work together on API tests.",
+      "pattern": "subject + work/works together on + task",
+      "ex": "We work together on API tests.",
+      "trap": "Use on before the shared task."
+    }
+  },
+  "foundation": {
+    "title": "Subject and verb",
+    "rule": "The subject tells us who or what the clause is about. The verb expresses an action or state. Formula: subject + verb (+ object or other information). I/you/we/they work; he/she/it works. The team checks reports; the engineers check reports. With be: I am, she is, they are. For ordinary present-simple verbs, use subject + do/does not + base verb for negatives and Do/Does + subject + base verb? for questions. Does carries agreement, so the main verb loses -s. With be, use She is not ready / Is she ready? Compare yesterday: She checked the report / Did she check the report? Common errors: 'She work' → 'She works'; 'Does she works?' → 'Does she work?'; 'Is she work?' → 'Does she work?' for a routine. A subject can contain several words: 'The new engineer' is the whole subject in 'The new engineer checks logs.' Practical spelling: say the letters in API and identify the subject in 'The API returns data.'",
+    "qs": [
+      "Identify subject and verb: The new engineer checks logs.",
+      "I ___ (work) at home.",
+      "She ___ (work) at home.",
+      "They ___ (be) ready.",
+      "Make negative: He checks reports.",
+      "Make a question: She checks reports.",
+      "Correct: Does he checks logs?",
+      "Make a past question: They checked logs yesterday."
+    ],
+    "ans": [
+      "Subject: The new engineer; verb: checks.",
+      "work",
+      "works",
+      "are",
+      "He does not check reports.",
+      "Does she check reports?",
+      "Does he check logs?",
+      "Did they check logs yesterday?"
+    ]
+  },
+  "focus_drill": [
+    "I take care of the schedule.",
+    [
+      [
+        "the schedule",
+        "the reports"
+      ],
+      [
+        "I take",
+        "She takes",
+        "Change the subject and verb together for agreement."
+      ],
+      [
+        "She takes care of",
+        "She deals with"
+      ],
+      [
+        "She deals with",
+        "She does not deal with",
+        "Does carries agreement; use the base verb."
+      ],
+      [
+        "She does not deal with the reports.",
+        "Does she deal with the reports?"
+      ]
+    ]
+  ]
+}
