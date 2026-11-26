@@ -1,0 +1,124 @@
+{
+  "lesson": {
+    "day": 28,
+    "date": "2026-11-25",
+    "theme": "Explain forgotten errands and completed tasks",
+    "micro": "tenses28",
+    "scenario_type": "everyday",
+    "small": "A friend asks what small task you finished recently. Give one truthful sentence and one detail.",
+    "scenario": "A friend asks whether you completed errands yesterday. Explain what you meant to do, what you forgot and what you managed to finish. Ask about tomorrow's plans. The friend changes one plan after your first answer.",
+    "writing": "Write four sentences in present simple, past simple, present continuous and future simple. Change two to questions and two to negatives.",
+    "chunks": [
+      "ab1",
+      "ab2",
+      "ab3",
+      "aa3",
+      "aa2",
+      "t3"
+    ],
+    "source": "Native interactive HTML lesson",
+    "note": "Everyday scenario; reviews from Days 27 and 20.",
+    "noticing": "I meant to buy milk yesterday, but I forgot to stop at the shop. I managed to buy bread. I changed my mind about dinner. I'm planning to shop tomorrow, but I'll play it by ear.",
+    "story": "Describe an errand you intended to finish and what happened.",
+    "recovery": "Describe the missing word in simple English and finish the sentence.",
+    "soloQuestions": [
+      "What did you finish yesterday?",
+      "What are you doing now?",
+      "What will you do tomorrow?"
+    ],
+    "writingCheck": "I buy bread every week. I bought bread yesterday. I am buying bread now. I will buy bread tomorrow. Did you buy bread yesterday? I did not buy milk.",
+    "ambiguity": {
+      "sentence": "I finally got the errands out of the way before lunch.",
+      "expression": "out of the way",
+      "gist_question": "Were the errands completed before lunch?",
+      "plain_english": "Finished so they no longer need attention.",
+      "context_clue": "Finally and before lunch suggest completion.",
+      "gist_answer": "Yes."
+    }
+  },
+  "new_chunks": {
+    "ab1": {
+      "d": 28,
+      "phrase": "I meant to...",
+      "meaning": "I intended to do something.",
+      "when": "Explain a previous intention.",
+      "everyday": "I meant to call you.",
+      "tech": "I meant to review the code.",
+      "pattern": "meant to + base verb",
+      "ex": "I meant to review the code.",
+      "trap": "Use the base verb after to."
+    },
+    "ab2": {
+      "d": 28,
+      "phrase": "I forgot to...",
+      "meaning": "I did not remember to do something.",
+      "when": "Explain a task you missed.",
+      "everyday": "I forgot to buy milk.",
+      "tech": "I forgot to send the report.",
+      "pattern": "forgot to + base verb",
+      "ex": "I forgot to send the report.",
+      "trap": "Use the base verb after to."
+    },
+    "ab3": {
+      "d": 28,
+      "phrase": "I managed to...",
+      "meaning": "I succeeded in doing something.",
+      "when": "Describe a successful effort.",
+      "everyday": "I managed to catch the bus.",
+      "tech": "I managed to reproduce the bug.",
+      "pattern": "managed to + base verb",
+      "ex": "I managed to reproduce the bug.",
+      "trap": "Use the base verb after to."
+    }
+  },
+  "foundation": {
+    "title": "Questions and negatives across four tenses",
+    "rule": "Use do or does for present simple, did for past simple, am/is/are for continuous and will for future. Use the base verb after do, does, did and will.",
+    "qs": [
+      "She ___ (cook) every day.",
+      "She didn't ___ (cook) yesterday.",
+      "___ she cook yesterday?",
+      "They ___ (cook) now.",
+      "___ they cooking now?",
+      "We ___ (cook) tomorrow.",
+      "Does he ___ (cook)?",
+      "He ___ (not/cook) on Sundays."
+    ],
+    "ans": [
+      "cooks",
+      "cook",
+      "Did",
+      "are cooking",
+      "Are",
+      "will cook",
+      "cook",
+      "doesn't cook"
+    ]
+  },
+  "focus_drill": [
+    "I meant to call my friend yesterday.",
+    [
+      [
+        "my friend",
+        "my brother"
+      ],
+      [
+        "call",
+        "visit"
+      ],
+      [
+        "I meant to",
+        "I managed to"
+      ],
+      [
+        "I managed to visit my brother",
+        "She managed to visit her brother",
+        "Change subject and possessive together."
+      ],
+      [
+        "She managed to visit her brother yesterday.",
+        "Did she manage to visit her brother yesterday?"
+      ]
+    ]
+  ]
+}
