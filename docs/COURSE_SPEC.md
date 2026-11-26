@@ -2,6 +2,10 @@
 
 This is the canonical, versioned teaching specification. It replaces the accumulation of rules inside the daily ChatGPT automation. See DAILY_RUNBOOK.md, course.config.json and data/lessons.js.
 
+## Current contract — Day 29 onward
+
+Follow [GRAMMAR_CURRICULUM.md](GRAMMAR_CURRICULUM.md) and `data/grammar-roadmap.json` for the daily topic, review schedule and difficulty. The five-block 20+15+30+15+10 schedule is authoritative from Day 27. All four-block timing, 10-minute small talk, 15-minute scenario and older progression references below are historical (Days 1–26) only. Preserve all other compatible requirements. The daily producer submits one incoming JSON; GitHub Actions owns canonical writes and validation.
+
 ## Sentence-production curriculum — effective Day 27 (2026-11-24)
 
 This section supersedes conflicting earlier timing, layout and speaking instructions for Day 27 onward. Preserve Days 1–26 as historical lessons. The objective is accurate, intelligible simple sentences before stylistic fluency. Daily schedule: grammar and foundations 20m; natural chunks 15m (noticing 5, story 5, recall 3, recovery 2); intensive substitutions 30m (lexical 10, grammatical 10, mixed 10); speaking 15m (everyday 5, scenario 8, correction/retry 2); writing 10m. Retain the scenario rotation, English-only explanations, existing chunk counts and hidden answers. Every substitution series has 4–6 cumulative cues, with grammatical intermediate sentences. Include tense, questions, negatives, auxiliaries and agreement, using simple vocabulary. In each 10-minute drill, repeat the series aloud, hide answers, then produce an original variation. Correct actual errors and retry; prioritize grammar over idiomatic sophistication. Keep AI and solo routes. Future focus drills must mix lexical and grammatical changes; the shared renderer supplies a dedicated grammatical series. Do not require speed or invented performance.
@@ -67,7 +71,7 @@ Write **all** lesson titles, explanations, directions, answers, feedback and del
 
 Use readable responsive HTML with headings, spacing, keyboard-compatible controls and **hidden answers until attempted**. The website may locally store checkmarks and notes; never claim this synchronizes between devices or uploads audio.
 
-## Exactly 90 minutes — four required blocks
+## Historical layout — Days 1–26 only (90 minutes, four blocks)
 
 ### 1. Forgotten Foundations (15 minutes)
 
