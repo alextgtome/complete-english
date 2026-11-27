@@ -1,0 +1,129 @@
+{
+  "lesson": {
+    "day": 30,
+    "date": "2026-11-27",
+    "theme": "Objects and complements — explain monitoring and incident status",
+    "micro": "grammar30",
+    "scenario_type": "workplace",
+    "small": "A colleague unexpectedly asks what you usually keep in your bag. Give a truthful short answer, one detail and optionally ask back. Then switch to a favorite snack, a recent purchase and a quiet place.",
+    "scenario": "Fictional workplace role-play: a monitoring dashboard shows delayed alerts. Explain what the service sends, who receives alerts and whether the dashboard is reliable. Ask a teammate to check delivery logs. Compare checking the notification queue with checking the dashboard first. The teammate reveals that email alerts work but mobile alerts are delayed after your first answer. Propose a next step and explain why. Ask one question at a time; correct actual errors and retry.",
+    "writing": "Write two original sentences about a real or fictional system: one with a direct object and one with a subject complement. Identify subject, verb and object or complement. Turn both into negatives and questions. Finish with an independent two-sentence status update without copying examples.",
+    "chunks": [
+      "ad1",
+      "ad2",
+      "ad3",
+      "ac2",
+      "aa2",
+      "w1"
+    ],
+    "source": "Native interactive HTML lesson",
+    "note": "Fundamentals, level 1; reviews from Days 29, 27 and 23.",
+    "noticing": "The service sends alerts to the team. The dashboard looks stable. We need to check the queue. The delay affects mobile users. I deal with alerts. I'm planning to check delivery logs. Could you take a look at the dashboard?",
+    "story": "Explain a fictional monitoring issue using two target chunks. Include an action with an object and a description with a complement.",
+    "recovery": "If you cannot retrieve a noun, describe what it does in simple English, then finish the sentence.",
+    "soloQuestions": [
+      "What do you usually keep in your bag?",
+      "What does the fictional service send, and to whom?",
+      "Is the dashboard reliable? Why?",
+      "What would you check if only mobile alerts were delayed?"
+    ],
+    "writingCheck": "The service sends alerts. The dashboard looks stable. The service does not send alerts. Does the service send alerts? The dashboard does not look stable. Does the dashboard look stable? The queue is busy. We need to check the logs. These are examples, not required answers.",
+    "ambiguity": {
+      "sentence": "The alert system is back on its feet, but the team is still checking the logs.",
+      "expression": "back on its feet",
+      "gist_question": "Is the alert system working again?",
+      "plain_english": "Working again after a problem.",
+      "context_clue": "Back suggests recovery; the ongoing checks mean we do not know whether every problem is resolved.",
+      "gist_answer": "Yes, it is working again, although checks continue."
+    }
+  },
+  "new_chunks": {
+    "ad1": {
+      "d": 30,
+      "phrase": "The delay affects...",
+      "meaning": "The delay has an effect on someone or something.",
+      "when": "Explain who or what experiences a delay.",
+      "everyday": "The delay affects our dinner plans.",
+      "tech": "The delay affects mobile users.",
+      "pattern": "subject + affect/affects + object",
+      "ex": "The delay affects mobile users.",
+      "trap": "Do not add on after the verb affect."
+    },
+    "ad2": {
+      "d": 30,
+      "phrase": "... looks stable.",
+      "meaning": "Something appears steady or unlikely to change suddenly.",
+      "when": "Describe an apparent condition without claiming certainty.",
+      "everyday": "The table looks stable.",
+      "tech": "The dashboard looks stable.",
+      "pattern": "subject + look/looks + adjective",
+      "ex": "The dashboard looks stable.",
+      "trap": "Stable describes the subject; do not use stably here."
+    },
+    "ad3": {
+      "d": 30,
+      "phrase": "We need to check...",
+      "meaning": "We must examine something.",
+      "when": "Propose a necessary investigation.",
+      "everyday": "We need to check the address.",
+      "tech": "We need to check the queue.",
+      "pattern": "subject + need/needs to + base verb + object",
+      "ex": "We need to check the queue.",
+      "trap": "Use check, not checking, after need to."
+    }
+  },
+  "foundation": {
+    "title": "Objects and complements",
+    "rule": "Review: a subject tells us who or what the clause is about; a verb expresses an action or state. A direct object receives or is affected by the action: subject + verb + object (She reads books; The service sends alerts). Some verbs need no object: The baby sleeps. A subject complement describes or identifies the subject after a linking verb: subject + be/look/seem + adjective or noun (She is ready; He is a doctor; The dashboard looks stable). A recipient can be an indirect object: The service sends the team alerts, or The service sends alerts to the team. I/you/we/they check logs; he/she/it checks logs. Negatives and questions: She does not check logs / Does she check logs? Does carries agreement, so use check. With be: She is not ready / Is she ready? With look: It does not look stable / Does it look stable? Past review: She checked logs / Did she check logs? Common errors: 'She checks' is possible when the object is understood, but 'She is checks logs' is wrong; say 'She checks logs'. 'The dashboard looks stably' → 'The dashboard looks stable'. Practical numbers: say 1,250 and 12,500 aloud in 'The service sends 1,250 alerts' and identify the object.",
+    "qs": [
+      "Identify subject, verb and object: The service sends alerts.",
+      "Identify the complement: The dashboard looks stable.",
+      "Identify the recipient and direct object: She sends the team a report.",
+      "He ___ (check) logs.",
+      "Make negative: She checks the queue.",
+      "Make a question: The dashboard looks stable.",
+      "Correct: Does he checks alerts?",
+      "Make a question: The team is ready.",
+      "Say 12,500 aloud in English."
+    ],
+    "ans": [
+      "The service; sends; alerts.",
+      "stable (describes the dashboard).",
+      "Recipient: the team; direct object: a report.",
+      "checks",
+      "She does not check the queue.",
+      "Does the dashboard look stable?",
+      "Does he check alerts?",
+      "Is the team ready?",
+      "Twelve thousand five hundred."
+    ]
+  },
+  "focus_drill": [
+    "We need to check the queue.",
+    [
+      [
+        "the queue",
+        "the logs"
+      ],
+      [
+        "We need",
+        "She needs",
+        "Change subject and verb together."
+      ],
+      [
+        "She needs to check",
+        "She checks",
+        "Use a present-simple action."
+      ],
+      [
+        "She checks",
+        "She does not check",
+        "Does carries agreement; use the base verb."
+      ],
+      [
+        "She does not check the logs.",
+        "Does she check the logs?"
+      ]
+    ]
+  ]
+}
